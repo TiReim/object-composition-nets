@@ -1,0 +1,100 @@
+[tool.poetry]
+name = "src"
+version = "0.0.0"
+description = "Research code for \"Discovering and Modeling Compositional Behavior in Object-Centric Processes\": object composition nets and their discovery framework."
+authors = ["Tim Luca Reimers <t.reimers@celonis.com>, Sebastiaan van Zelst <s.vanzelst@celonis.com>, Jan Niklas van Detten <n.vandetten@bpm.rwth-aachen.de>, Marko Goldschmidt <m.goldschmidt@celonis.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+polars = "^0.17.1"
+networkx = "^3.1"
+tqdm = "^4.66.3"
+seaborn = "^0.12.2"
+pydantic = "^2.0.0"
+numpy = "<2.0.0"
+prettyprinttree = "^1.36.2"
+pydot = "^1.4.2"
+overrides = "^7.3.1"
+msgspec = "^0.18.4"
+typing-extensions = "^4.5.0"
+
+[tool.poetry.dev-dependencies]
+black = "^24.3.0"
+pylint = "^2.14.5"
+pylint-pydantic="^0.2.0"
+mypy = "^1.2.0"
+isort = "^5.12.0"
+
+[tool.black]
+line-length = 120
+
+[tool.flakeheaven]
+max-line-length = 120
+select = ["C,E,F,W,B", ]
+
+[tool.isort]
+line_length = 120
+profile = "black"
+
+[tool.mypy]
+strict_optional = false
+
+[[tool.mypy.overrides]]
+module = ["vcr.*", "httpx.*", "pythonjsonlogger.*", "yaml.*", ]
+ignore_missing_imports = true
+
+[tool.pydocstyle]
+convention = "google"
+ignore-decorators = "property"
+add-ignore = ["D105", "D107", "D100", ]
+
+[tool.flakeheaven.plugins]
+pycodestyle = ["+*", "-W503", "-E501", "-E203"]
+
+[tool.pylint.basic]
+good-names = ["i", "j", "k", "df", "f", "e", ]
+
+[tool.pylint.main]
+extension-pkg-whitelist = ['pydantic']
+extension-pkg-allow-list = ['pydantic']
+load-plugins = [
+    "pylint_pydantic",
+]
+
+[tool.pylint.FORMAT]
+ignore-long-lines = ["(^\\s*(from\\s+\\S+\\s+)?import\\s+.+$|^\\s*(# )?<?https?:\\/\\/\\S+>?$)", ]
+indent-after-paren = 4
+indent-string = "    "
+max-line-length = 120
+max-module-lines = 99999
+single-line-if-stmt = ["yes", ]
+
+
+
+[tool.pylint."MESSAGES CONTROL"]
+disable = [
+    "import-error",
+    "import-outside-toplevel",
+    "missing-module-docstring",
+    "missing-function-docstring",
+    "missing-class-docstring",
+    "protected-access",
+    "redefined-outer-name",
+    "wrong-import-order",
+    "fixme",
+]
+extension-pkg-whitelist = "pydantic"
+
+[tool.pylint.similarities]
+ignore-comments = true
+ignore-docstrings = true
+ignore-imports = true
+ignore-signatures = true
+min-similarity-lines = 10
+
+[tool.pylint.TYPECHECK]
+contextmanager-decorators = ["contextlib.contextmanager,contextlib2.contextmanager", ]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
