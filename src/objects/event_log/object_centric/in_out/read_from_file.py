@@ -2,7 +2,6 @@ import os
 from io import BytesIO
 from typing import BinaryIO, Optional, cast
 
-from src.objects.event_log.object_centric.in_out.importer.import_json_ocel import OCELJSONImporter
 from src.objects.event_log.object_centric.in_out.importer.import_json_ocel2 import OCEL2JSONImporter
 from src.objects.event_log.object_centric.obj import ObjectCentricEventLog
 
@@ -21,15 +20,9 @@ def read_from_file_path(file_name: str) -> Optional[ObjectCentricEventLog]:
     match filetype:
         case ".json" | ".jsonocel":
             try:
-                return OCELJSONImporter.import_from_path(file_name)
-            except AttributeError:
-                try:
-                    with open(file_name, "r", encoding="UTF-8") as file:
-                        return OCEL2JSONImporter.import_from_file(file)
-                except Exception as e:
-                    raise SystemError(
-                        "You have provided a json / jsonocel file that can't be parsed by OCEL 1 and 2 importers"
-                    ) from e
+                return OCEL2JSONImporter.import_from_path(file_name)
+            except Exception as e:
+                raise SystemError("You have provided a JSON file that cannot be parsed as OCEL 2.0") from e
 
         case _:
             raise SystemError(
@@ -41,15 +34,9 @@ def read_from_file(file: IOFile, filetype: str):
     match filetype:
         case ".json" | ".jsonocel":
             try:
-                return OCELJSONImporter.import_from_file(file)
-            except AttributeError:
-                try:
-                    file.seek(0)
-                    return OCEL2JSONImporter.import_from_file(file)
-                except Exception as e:
-                    raise SystemError(
-                        "You have provided a json / jsonocel file that can't be parsed by OCEL 1 and 2 importers"
-                    ) from e
+                return OCEL2JSONImporter.import_from_file(file)
+            except Exception as e:
+                raise SystemError("You have provided a JSON file that cannot be parsed as OCEL 2.0") from e
 
         case _:
             raise SystemError(
