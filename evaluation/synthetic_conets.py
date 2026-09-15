@@ -1,8 +1,7 @@
 """Object-composition nets used to simulate synthetic object-centric event logs.
 
-The three scenarios deliberately exercise different composition lifecycles: hierarchical cold-chain
-containers that survive a hub transfer, a long-lived mortgage dossier under concurrent review, and
-an aircraft work package temporarily combined with execution resources.
+The scenarios exercise hierarchical, long-lived, temporary, and deliberately non-rediscoverable
+composition lifecycles.
 """
 
 import os
@@ -486,10 +485,83 @@ def aircraft_maintenance_conet() -> SyntheticOCoN:
     return SyntheticOCoN("aircraft_maintenance", workflow_net)
 
 
+def concurrent_composition_conet() -> SyntheticOCoN:
+    """A composition whose member participates in a concurrent branch.
+
+    ``Form Composition`` duplicates the case object: one token is composed with the item while the
+    other enters an independent review branch. The review must finish before the branches join and
+    the composition is decomposed. Consequently, each case/item pair has the event sequence
+    ``Form Composition`` (both), ``Review Case`` (case only), ``Close Composition`` (both). The
+    composition miner therefore never observes two consecutive events over the complete pair.
+    """
+    case, item = "Case", "Item"
+    composition = higher_type((case, 1), (item, 1))
+
+    case_src = place("Case_src", base_type(case))
+    case_ready = place("Case_ready", base_type(case))
+    item_src = place("Item_src", base_type(item))
+    item_ready = place("Item_ready", base_type(item))
+    composition_active = place("Composition_active", composition)
+    case_review_pending = place("Case_review_pending", base_type(case))
+    case_reviewed = place("Case_reviewed", base_type(case))
+    case_sink = place("Case_sink", base_type(case))
+    item_sink = place("Item_sink", base_type(item))
+
+    create_case = transition("create_case", "Create Case", (0, 0))
+    register_item = transition("register_item", "Register Item", (0, 0))
+    form_composition = transition("form_composition", "Form Composition", (0, 1))
+    review_case = transition("review_case", "Review Case", (0, 0))
+    close_composition = transition("close_composition", "Close Composition", (1, 0))
+
+    places = {
+        case_src,
+        case_ready,
+        item_src,
+        item_ready,
+        composition_active,
+        case_review_pending,
+        case_reviewed,
+        case_sink,
+        item_sink,
+    }
+    transitions = {
+        create_case,
+        register_item,
+        form_composition,
+        review_case,
+        close_composition,
+    }
+    arcs = {
+        Arc(case_src, create_case),
+        Arc(create_case, case_ready),
+        Arc(item_src, register_item),
+        Arc(register_item, item_ready),
+        Arc(case_ready, form_composition),
+        Arc(item_ready, form_composition),
+        Arc(form_composition, composition_active),
+        Arc(form_composition, case_review_pending),
+        Arc(case_review_pending, review_case),
+        Arc(review_case, case_reviewed),
+        Arc(composition_active, close_composition),
+        Arc(case_reviewed, close_composition),
+        Arc(close_composition, case_sink),
+        Arc(close_composition, item_sink),
+    }
+
+    net = ObjectCompositionNet(places, transitions, arcs)
+    workflow_net = ObjectCompositionWorkflowNet(
+        net,
+        source_places={case_src, item_src},
+        sink_places={case_sink, item_sink},
+    )
+    return SyntheticOCoN("concurrent_composition", workflow_net)
+
+
 BUILDERS = (
     pharmaceutical_cold_chain_conet,
     mortgage_origination_conet,
     aircraft_maintenance_conet,
+    concurrent_composition_conet,
 )
 
 

@@ -51,7 +51,7 @@ poetry install
 
 ### Event-log benchmarks
 
-The benchmark registry contains the five numbered input logs above and the three logs under
+The benchmark registry contains the five numbered input logs above and the four logs under
 `data/synthetic_logs/`. Regenerate the latter with:
 
 ```console

@@ -1,11 +1,12 @@
 # Synthetic log generation
 
-The synthetic datasets cover three object-centric processes with different composition
+The synthetic datasets cover four object-centric processes with different composition
 lifecycles:
 
 - pharmaceutical cold-chain logistics,
 - mortgage origination, and
-- aircraft line maintenance.
+- aircraft line maintenance, and
+- a deliberately non-rediscoverable concurrent composition.
 
 They are ordinary OCEL 2.0 inputs to the evaluation scripts and are registered alongside the five
 numbered logs in `data/`.
@@ -45,6 +46,17 @@ tools join that package during maintenance. Functional testing can fail and retu
 After maintenance, tools and the technician follow independent return and sign-off paths while the
 work package continues through inspection and closure.
 
+## Concurrent composition counterexample
+
+A case and an item are composed while a duplicate case token enters a concurrent review branch.
+Closing the composition synchronizes both branches and decomposes the pair.
+
+For each pair, `Form Composition` and `Close Composition` involve both objects, but `Review Case`
+in between involves only the case. The composition miner requires a consecutive shared event
+sequence, so it discovers no higher-type even though the simulation net contains `{Case, Item}`.
+This scenario is intentionally not perfectly rediscovered and is skipped by the conformance
+benchmark at theta `1.0`.
+
 ## Stochastic generation
 
 Every base object type has an independent homogeneous Poisson arrival stream. The nominal arrival
@@ -52,7 +64,8 @@ ratios follow the configured composition capacities:
 
 - cold chain: `3:1:1` for vials, cold boxes, and shipments;
 - mortgage: `4:1:1` for documents, applications, and properties;
-- aircraft maintenance: `2:2:1:1` for LRUs, tools, work orders, and technicians.
+- aircraft maintenance: `2:2:1:1` for LRUs, tools, work orders, and technicians; and
+- concurrent composition: `1:1` for cases and items.
 
 All objects enter a shared marking. At each service epoch, one enabled transition is selected
 uniformly. Variable inputs consume a uniformly sampled capacity-bounded subset. There are no
@@ -73,6 +86,7 @@ The generated files are:
 - `data/synthetic_logs/pharmaceutical_cold_chain.json`
 - `data/synthetic_logs/mortgage_origination.json`
 - `data/synthetic_logs/aircraft_maintenance.json`
+- `data/synthetic_logs/concurrent_composition.json`
 
 They are listed in `EVENT_LOGS` together with:
 
@@ -88,7 +102,7 @@ automatically when it has no higher-type at theta `1.0`.
 ## Reproduce
 
 ```bash
-# Regenerate the three stochastic datasets and manifest.
+# Regenerate the four stochastic datasets and manifest.
 poetry run python -m evaluation.synthetic_data --instances 100 --seed 0
 
 # Evaluate all registered datasets over the theta grid.
@@ -104,5 +118,4 @@ poetry run python -m unittest tests.test_synthetic_evaluation
 ## Scope
 
 The generated logs are noise-free complete-lifecycle projections. Their raw simulations contain
-overlapping work, unmatched arrivals, and right-censored lifecycles; those incomplete components
-are reported in the manifest but are not written into the benchmark logs.
+overlapping work, unmatched arrivals, and right-censored lifecycles.

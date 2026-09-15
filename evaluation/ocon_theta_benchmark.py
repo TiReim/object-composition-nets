@@ -42,6 +42,7 @@ EVENT_LOGS = [
     "synthetic_logs/pharmaceutical_cold_chain.json",
     "synthetic_logs/mortgage_origination.json",
     "synthetic_logs/aircraft_maintenance.json",
+    "synthetic_logs/concurrent_composition.json",
 ]
 
 

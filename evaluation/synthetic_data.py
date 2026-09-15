@@ -36,6 +36,7 @@ from evaluation.ocon_theta_benchmark import EVENT_LOG_DIR, load_event_graph
 from evaluation.synthetic_conets import (
     SyntheticOCoN,
     aircraft_maintenance_conet,
+    concurrent_composition_conet,
     mortgage_origination_conet,
     pharmaceutical_cold_chain_conet,
     validate,
@@ -85,6 +86,15 @@ SCENARIOS = (
         0.50,
         {"Test Failed": 2},
         frozenset({"Close Work Order", "Return Tools", "End Technician Assignment"}),
+    ),
+    Scenario(
+        "concurrent_composition",
+        concurrent_composition_conet,
+        {"Case": 0.02, "Item": 0.02},
+        "Case",
+        0.50,
+        {},
+        frozenset({"Close Composition"}),
     ),
 )
 
