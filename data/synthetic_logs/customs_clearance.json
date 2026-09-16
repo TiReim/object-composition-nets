@@ -1,0 +1,7456 @@
+{
+  "eventTypes": [
+    {
+      "name": "Create Declaration"
+    },
+    {
+      "name": "File Customs Entry"
+    },
+    {
+      "name": "Register Cargo"
+    },
+    {
+      "name": "Release Cargo"
+    },
+    {
+      "name": "Review Declaration"
+    }
+  ],
+  "objectTypes": [
+    {
+      "name": "Cargo"
+    },
+    {
+      "name": "Declaration"
+    }
+  ],
+  "events": [
+    {
+      "id": "e0000000",
+      "type": "Register Cargo",
+      "time": "2024-01-01T03:09:08.382972",
+      "relationships": [
+        {
+          "objectId": "cargo_00000",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000001",
+      "type": "Create Declaration",
+      "time": "2024-01-01T04:10:49.097902",
+      "relationships": [
+        {
+          "objectId": "declaration_00000",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000002",
+      "type": "File Customs Entry",
+      "time": "2024-01-01T04:11:04.070148",
+      "relationships": [
+        {
+          "objectId": "cargo_00000",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00000",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000003",
+      "type": "Review Declaration",
+      "time": "2024-01-01T04:14:26.397080",
+      "relationships": [
+        {
+          "objectId": "declaration_00000",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000004",
+      "type": "Release Cargo",
+      "time": "2024-01-01T04:18:50.966634",
+      "relationships": [
+        {
+          "objectId": "cargo_00000",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00000",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000005",
+      "type": "Create Declaration",
+      "time": "2024-01-01T04:51:32.053378",
+      "relationships": [
+        {
+          "objectId": "declaration_00001",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000006",
+      "type": "Register Cargo",
+      "time": "2024-01-01T05:13:57.031838",
+      "relationships": [
+        {
+          "objectId": "cargo_00001",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000007",
+      "type": "Create Declaration",
+      "time": "2024-01-01T05:16:42.230388",
+      "relationships": [
+        {
+          "objectId": "declaration_00002",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000008",
+      "type": "File Customs Entry",
+      "time": "2024-01-01T05:17:43.349558",
+      "relationships": [
+        {
+          "objectId": "cargo_00001",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00001",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000009",
+      "type": "Review Declaration",
+      "time": "2024-01-01T05:18:22.446159",
+      "relationships": [
+        {
+          "objectId": "declaration_00001",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000010",
+      "type": "Release Cargo",
+      "time": "2024-01-01T05:18:35.601704",
+      "relationships": [
+        {
+          "objectId": "cargo_00001",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00001",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000011",
+      "type": "Register Cargo",
+      "time": "2024-01-01T06:30:35.977155",
+      "relationships": [
+        {
+          "objectId": "cargo_00002",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000012",
+      "type": "File Customs Entry",
+      "time": "2024-01-01T06:33:39.490829",
+      "relationships": [
+        {
+          "objectId": "cargo_00002",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00002",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000013",
+      "type": "Review Declaration",
+      "time": "2024-01-01T06:36:21.281514",
+      "relationships": [
+        {
+          "objectId": "declaration_00002",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000014",
+      "type": "Release Cargo",
+      "time": "2024-01-01T06:39:59.687949",
+      "relationships": [
+        {
+          "objectId": "cargo_00002",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00002",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000015",
+      "type": "Create Declaration",
+      "time": "2024-01-01T07:29:27.876805",
+      "relationships": [
+        {
+          "objectId": "declaration_00003",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000016",
+      "type": "Create Declaration",
+      "time": "2024-01-01T07:52:54.512228",
+      "relationships": [
+        {
+          "objectId": "declaration_00004",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000017",
+      "type": "Register Cargo",
+      "time": "2024-01-01T08:02:13.535405",
+      "relationships": [
+        {
+          "objectId": "cargo_00003",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000018",
+      "type": "File Customs Entry",
+      "time": "2024-01-01T08:06:04.592637",
+      "relationships": [
+        {
+          "objectId": "cargo_00003",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00003",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000019",
+      "type": "Review Declaration",
+      "time": "2024-01-01T08:14:13.855529",
+      "relationships": [
+        {
+          "objectId": "declaration_00003",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000020",
+      "type": "Release Cargo",
+      "time": "2024-01-01T08:20:59.172687",
+      "relationships": [
+        {
+          "objectId": "cargo_00003",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00003",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000021",
+      "type": "Register Cargo",
+      "time": "2024-01-01T09:30:24.132888",
+      "relationships": [
+        {
+          "objectId": "cargo_00004",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000022",
+      "type": "File Customs Entry",
+      "time": "2024-01-01T09:30:47.249460",
+      "relationships": [
+        {
+          "objectId": "cargo_00004",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00004",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000023",
+      "type": "Review Declaration",
+      "time": "2024-01-01T09:34:34.627240",
+      "relationships": [
+        {
+          "objectId": "declaration_00004",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000024",
+      "type": "Release Cargo",
+      "time": "2024-01-01T09:36:40.790748",
+      "relationships": [
+        {
+          "objectId": "cargo_00004",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00004",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000025",
+      "type": "Create Declaration",
+      "time": "2024-01-01T09:43:51.756192",
+      "relationships": [
+        {
+          "objectId": "declaration_00005",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000026",
+      "type": "Create Declaration",
+      "time": "2024-01-01T10:35:19.365342",
+      "relationships": [
+        {
+          "objectId": "declaration_00006",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000027",
+      "type": "Register Cargo",
+      "time": "2024-01-01T11:11:30.765454",
+      "relationships": [
+        {
+          "objectId": "cargo_00005",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000028",
+      "type": "File Customs Entry",
+      "time": "2024-01-01T11:11:59.656079",
+      "relationships": [
+        {
+          "objectId": "cargo_00005",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00005",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000029",
+      "type": "Review Declaration",
+      "time": "2024-01-01T11:13:31.111150",
+      "relationships": [
+        {
+          "objectId": "declaration_00005",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000030",
+      "type": "Release Cargo",
+      "time": "2024-01-01T11:15:14.468476",
+      "relationships": [
+        {
+          "objectId": "cargo_00005",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00005",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000031",
+      "type": "Create Declaration",
+      "time": "2024-01-01T11:58:24.605340",
+      "relationships": [
+        {
+          "objectId": "declaration_00007",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000032",
+      "type": "Register Cargo",
+      "time": "2024-01-01T12:11:17.916329",
+      "relationships": [
+        {
+          "objectId": "cargo_00006",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000033",
+      "type": "File Customs Entry",
+      "time": "2024-01-01T12:17:42.692226",
+      "relationships": [
+        {
+          "objectId": "cargo_00006",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00007",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000034",
+      "type": "Review Declaration",
+      "time": "2024-01-01T12:18:39.935655",
+      "relationships": [
+        {
+          "objectId": "declaration_00007",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000035",
+      "type": "Release Cargo",
+      "time": "2024-01-01T12:20:24.677501",
+      "relationships": [
+        {
+          "objectId": "cargo_00006",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00007",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000036",
+      "type": "Create Declaration",
+      "time": "2024-01-01T12:22:40.029733",
+      "relationships": [
+        {
+          "objectId": "declaration_00008",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000037",
+      "type": "Create Declaration",
+      "time": "2024-01-01T13:19:07.780315",
+      "relationships": [
+        {
+          "objectId": "declaration_00009",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000038",
+      "type": "Create Declaration",
+      "time": "2024-01-01T13:27:43.902631",
+      "relationships": [
+        {
+          "objectId": "declaration_00010",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000039",
+      "type": "Create Declaration",
+      "time": "2024-01-01T14:21:15.535841",
+      "relationships": [
+        {
+          "objectId": "declaration_00011",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000040",
+      "type": "Create Declaration",
+      "time": "2024-01-01T14:27:57.411943",
+      "relationships": [
+        {
+          "objectId": "declaration_00012",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000041",
+      "type": "Create Declaration",
+      "time": "2024-01-01T14:37:52.702262",
+      "relationships": [
+        {
+          "objectId": "declaration_00013",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000042",
+      "type": "Register Cargo",
+      "time": "2024-01-01T14:38:35.518030",
+      "relationships": [
+        {
+          "objectId": "cargo_00007",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000043",
+      "type": "File Customs Entry",
+      "time": "2024-01-01T14:38:42.008753",
+      "relationships": [
+        {
+          "objectId": "cargo_00007",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00009",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000044",
+      "type": "Review Declaration",
+      "time": "2024-01-01T14:39:49.486568",
+      "relationships": [
+        {
+          "objectId": "declaration_00009",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000045",
+      "type": "Release Cargo",
+      "time": "2024-01-01T14:40:39.810616",
+      "relationships": [
+        {
+          "objectId": "cargo_00007",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00009",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000046",
+      "type": "Register Cargo",
+      "time": "2024-01-01T14:48:02.338145",
+      "relationships": [
+        {
+          "objectId": "cargo_00008",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000047",
+      "type": "File Customs Entry",
+      "time": "2024-01-01T14:53:59.822409",
+      "relationships": [
+        {
+          "objectId": "cargo_00008",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00011",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000048",
+      "type": "Review Declaration",
+      "time": "2024-01-01T14:54:54.585807",
+      "relationships": [
+        {
+          "objectId": "declaration_00011",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000049",
+      "type": "Release Cargo",
+      "time": "2024-01-01T14:56:36.302382",
+      "relationships": [
+        {
+          "objectId": "cargo_00008",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00011",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000050",
+      "type": "Register Cargo",
+      "time": "2024-01-01T15:06:27.489953",
+      "relationships": [
+        {
+          "objectId": "cargo_00009",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000051",
+      "type": "File Customs Entry",
+      "time": "2024-01-01T15:08:33.212094",
+      "relationships": [
+        {
+          "objectId": "cargo_00009",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00008",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000052",
+      "type": "Review Declaration",
+      "time": "2024-01-01T15:09:00.087393",
+      "relationships": [
+        {
+          "objectId": "declaration_00008",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000053",
+      "type": "Release Cargo",
+      "time": "2024-01-01T15:09:13.980002",
+      "relationships": [
+        {
+          "objectId": "cargo_00009",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00008",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000054",
+      "type": "Register Cargo",
+      "time": "2024-01-01T15:18:35.992826",
+      "relationships": [
+        {
+          "objectId": "cargo_00010",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000055",
+      "type": "File Customs Entry",
+      "time": "2024-01-01T15:20:53.724152",
+      "relationships": [
+        {
+          "objectId": "cargo_00010",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00013",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000056",
+      "type": "Review Declaration",
+      "time": "2024-01-01T15:26:54.291256",
+      "relationships": [
+        {
+          "objectId": "declaration_00013",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000057",
+      "type": "Release Cargo",
+      "time": "2024-01-01T15:28:32.826516",
+      "relationships": [
+        {
+          "objectId": "cargo_00010",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00013",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000058",
+      "type": "Register Cargo",
+      "time": "2024-01-01T15:33:14.658277",
+      "relationships": [
+        {
+          "objectId": "cargo_00011",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000059",
+      "type": "File Customs Entry",
+      "time": "2024-01-01T15:34:32.163260",
+      "relationships": [
+        {
+          "objectId": "cargo_00011",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00006",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000060",
+      "type": "Review Declaration",
+      "time": "2024-01-01T15:34:47.628539",
+      "relationships": [
+        {
+          "objectId": "declaration_00006",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000061",
+      "type": "Release Cargo",
+      "time": "2024-01-01T15:36:23.110712",
+      "relationships": [
+        {
+          "objectId": "cargo_00011",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00006",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000062",
+      "type": "Register Cargo",
+      "time": "2024-01-01T15:52:32.249100",
+      "relationships": [
+        {
+          "objectId": "cargo_00012",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000063",
+      "type": "File Customs Entry",
+      "time": "2024-01-01T15:55:42.962618",
+      "relationships": [
+        {
+          "objectId": "cargo_00012",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00010",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000064",
+      "type": "Review Declaration",
+      "time": "2024-01-01T16:07:14.306590",
+      "relationships": [
+        {
+          "objectId": "declaration_00010",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000065",
+      "type": "Release Cargo",
+      "time": "2024-01-01T16:08:08.915424",
+      "relationships": [
+        {
+          "objectId": "cargo_00012",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00010",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000066",
+      "type": "Create Declaration",
+      "time": "2024-01-01T16:19:52.674046",
+      "relationships": [
+        {
+          "objectId": "declaration_00014",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000067",
+      "type": "Register Cargo",
+      "time": "2024-01-01T16:21:19.087761",
+      "relationships": [
+        {
+          "objectId": "cargo_00013",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000068",
+      "type": "File Customs Entry",
+      "time": "2024-01-01T16:22:00.556494",
+      "relationships": [
+        {
+          "objectId": "cargo_00013",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00012",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000069",
+      "type": "Review Declaration",
+      "time": "2024-01-01T16:27:37.142371",
+      "relationships": [
+        {
+          "objectId": "declaration_00012",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000070",
+      "type": "Release Cargo",
+      "time": "2024-01-01T16:31:07.971219",
+      "relationships": [
+        {
+          "objectId": "cargo_00013",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00012",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000071",
+      "type": "Register Cargo",
+      "time": "2024-01-01T17:07:19.792774",
+      "relationships": [
+        {
+          "objectId": "cargo_00014",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000072",
+      "type": "Create Declaration",
+      "time": "2024-01-01T17:10:11.459883",
+      "relationships": [
+        {
+          "objectId": "declaration_00015",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000073",
+      "type": "File Customs Entry",
+      "time": "2024-01-01T17:10:43.335213",
+      "relationships": [
+        {
+          "objectId": "cargo_00014",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00014",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000074",
+      "type": "Review Declaration",
+      "time": "2024-01-01T17:12:20.399134",
+      "relationships": [
+        {
+          "objectId": "declaration_00014",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000075",
+      "type": "Release Cargo",
+      "time": "2024-01-01T17:19:42.996573",
+      "relationships": [
+        {
+          "objectId": "cargo_00014",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00014",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000076",
+      "type": "Register Cargo",
+      "time": "2024-01-01T17:29:06.246863",
+      "relationships": [
+        {
+          "objectId": "cargo_00015",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000077",
+      "type": "File Customs Entry",
+      "time": "2024-01-01T17:29:59.251833",
+      "relationships": [
+        {
+          "objectId": "cargo_00015",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00015",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000078",
+      "type": "Review Declaration",
+      "time": "2024-01-01T17:32:34.259455",
+      "relationships": [
+        {
+          "objectId": "declaration_00015",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000079",
+      "type": "Release Cargo",
+      "time": "2024-01-01T17:38:03.112360",
+      "relationships": [
+        {
+          "objectId": "cargo_00015",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00015",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000080",
+      "type": "Register Cargo",
+      "time": "2024-01-01T17:56:35.593237",
+      "relationships": [
+        {
+          "objectId": "cargo_00016",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000081",
+      "type": "Register Cargo",
+      "time": "2024-01-01T18:38:44.901080",
+      "relationships": [
+        {
+          "objectId": "cargo_00017",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000082",
+      "type": "Create Declaration",
+      "time": "2024-01-01T19:05:07.460012",
+      "relationships": [
+        {
+          "objectId": "declaration_00016",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000083",
+      "type": "File Customs Entry",
+      "time": "2024-01-01T19:05:35.082361",
+      "relationships": [
+        {
+          "objectId": "cargo_00017",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00016",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000084",
+      "type": "Review Declaration",
+      "time": "2024-01-01T19:05:39.309710",
+      "relationships": [
+        {
+          "objectId": "declaration_00016",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000085",
+      "type": "Release Cargo",
+      "time": "2024-01-01T19:09:22.822519",
+      "relationships": [
+        {
+          "objectId": "cargo_00017",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00016",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000086",
+      "type": "Register Cargo",
+      "time": "2024-01-01T20:10:21.220602",
+      "relationships": [
+        {
+          "objectId": "cargo_00018",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000087",
+      "type": "Register Cargo",
+      "time": "2024-01-01T20:46:56.683362",
+      "relationships": [
+        {
+          "objectId": "cargo_00019",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000088",
+      "type": "Create Declaration",
+      "time": "2024-01-01T21:49:44.318959",
+      "relationships": [
+        {
+          "objectId": "declaration_00017",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000089",
+      "type": "File Customs Entry",
+      "time": "2024-01-01T21:52:51.364191",
+      "relationships": [
+        {
+          "objectId": "cargo_00019",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00017",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000090",
+      "type": "Review Declaration",
+      "time": "2024-01-01T21:56:56.390686",
+      "relationships": [
+        {
+          "objectId": "declaration_00017",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000091",
+      "type": "Release Cargo",
+      "time": "2024-01-01T21:57:24.869677",
+      "relationships": [
+        {
+          "objectId": "cargo_00019",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00017",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000092",
+      "type": "Create Declaration",
+      "time": "2024-01-01T22:04:25.530998",
+      "relationships": [
+        {
+          "objectId": "declaration_00018",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000093",
+      "type": "File Customs Entry",
+      "time": "2024-01-01T22:08:56.399074",
+      "relationships": [
+        {
+          "objectId": "cargo_00016",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00018",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000094",
+      "type": "Create Declaration",
+      "time": "2024-01-01T22:09:08.584064",
+      "relationships": [
+        {
+          "objectId": "declaration_00019",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000095",
+      "type": "Review Declaration",
+      "time": "2024-01-01T22:09:33.599681",
+      "relationships": [
+        {
+          "objectId": "declaration_00018",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000096",
+      "type": "File Customs Entry",
+      "time": "2024-01-01T22:14:43.344547",
+      "relationships": [
+        {
+          "objectId": "cargo_00018",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00019",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000097",
+      "type": "Review Declaration",
+      "time": "2024-01-01T22:14:53.257485",
+      "relationships": [
+        {
+          "objectId": "declaration_00019",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000098",
+      "type": "Register Cargo",
+      "time": "2024-01-01T22:56:14.434664",
+      "relationships": [
+        {
+          "objectId": "cargo_00020",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000099",
+      "type": "Create Declaration",
+      "time": "2024-01-01T23:15:13.268675",
+      "relationships": [
+        {
+          "objectId": "declaration_00020",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000100",
+      "type": "File Customs Entry",
+      "time": "2024-01-01T23:15:27.660810",
+      "relationships": [
+        {
+          "objectId": "cargo_00020",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00020",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000101",
+      "type": "Review Declaration",
+      "time": "2024-01-01T23:15:56.874236",
+      "relationships": [
+        {
+          "objectId": "declaration_00020",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000102",
+      "type": "Release Cargo",
+      "time": "2024-01-01T23:17:54.427180",
+      "relationships": [
+        {
+          "objectId": "cargo_00020",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00020",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000103",
+      "type": "Release Cargo",
+      "time": "2024-01-01T23:19:00.672023",
+      "relationships": [
+        {
+          "objectId": "cargo_00016",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00018",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000104",
+      "type": "Release Cargo",
+      "time": "2024-01-01T23:21:06.118189",
+      "relationships": [
+        {
+          "objectId": "cargo_00018",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00019",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000105",
+      "type": "Create Declaration",
+      "time": "2024-01-01T23:51:08.186796",
+      "relationships": [
+        {
+          "objectId": "declaration_00021",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000106",
+      "type": "Register Cargo",
+      "time": "2024-01-02T00:13:36.216833",
+      "relationships": [
+        {
+          "objectId": "cargo_00021",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000107",
+      "type": "File Customs Entry",
+      "time": "2024-01-02T00:16:16.718413",
+      "relationships": [
+        {
+          "objectId": "cargo_00021",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00021",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000108",
+      "type": "Review Declaration",
+      "time": "2024-01-02T00:17:23.023570",
+      "relationships": [
+        {
+          "objectId": "declaration_00021",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000109",
+      "type": "Release Cargo",
+      "time": "2024-01-02T00:17:39.753137",
+      "relationships": [
+        {
+          "objectId": "cargo_00021",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00021",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000110",
+      "type": "Create Declaration",
+      "time": "2024-01-02T00:31:42.037949",
+      "relationships": [
+        {
+          "objectId": "declaration_00022",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000111",
+      "type": "Create Declaration",
+      "time": "2024-01-02T00:39:28.322943",
+      "relationships": [
+        {
+          "objectId": "declaration_00023",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000112",
+      "type": "Create Declaration",
+      "time": "2024-01-02T01:42:22.642256",
+      "relationships": [
+        {
+          "objectId": "declaration_00024",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000113",
+      "type": "Register Cargo",
+      "time": "2024-01-02T01:51:22.864724",
+      "relationships": [
+        {
+          "objectId": "cargo_00022",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000114",
+      "type": "File Customs Entry",
+      "time": "2024-01-02T01:51:57.295869",
+      "relationships": [
+        {
+          "objectId": "cargo_00022",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00024",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000115",
+      "type": "Review Declaration",
+      "time": "2024-01-02T01:52:12.915466",
+      "relationships": [
+        {
+          "objectId": "declaration_00024",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000116",
+      "type": "Release Cargo",
+      "time": "2024-01-02T01:52:36.777028",
+      "relationships": [
+        {
+          "objectId": "cargo_00022",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00024",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000117",
+      "type": "Create Declaration",
+      "time": "2024-01-02T01:56:42.178259",
+      "relationships": [
+        {
+          "objectId": "declaration_00025",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000118",
+      "type": "Register Cargo",
+      "time": "2024-01-02T02:07:08.959100",
+      "relationships": [
+        {
+          "objectId": "cargo_00023",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000119",
+      "type": "File Customs Entry",
+      "time": "2024-01-02T02:07:46.209501",
+      "relationships": [
+        {
+          "objectId": "cargo_00023",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00023",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000120",
+      "type": "Review Declaration",
+      "time": "2024-01-02T02:09:19.825850",
+      "relationships": [
+        {
+          "objectId": "declaration_00023",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000121",
+      "type": "Release Cargo",
+      "time": "2024-01-02T02:10:05.450275",
+      "relationships": [
+        {
+          "objectId": "cargo_00023",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00023",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000122",
+      "type": "Create Declaration",
+      "time": "2024-01-02T03:10:30.502263",
+      "relationships": [
+        {
+          "objectId": "declaration_00026",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000123",
+      "type": "Create Declaration",
+      "time": "2024-01-02T03:18:37.269093",
+      "relationships": [
+        {
+          "objectId": "declaration_00027",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000124",
+      "type": "Register Cargo",
+      "time": "2024-01-02T03:43:39.265877",
+      "relationships": [
+        {
+          "objectId": "cargo_00024",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000125",
+      "type": "File Customs Entry",
+      "time": "2024-01-02T03:45:31.730308",
+      "relationships": [
+        {
+          "objectId": "cargo_00024",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00027",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000126",
+      "type": "Review Declaration",
+      "time": "2024-01-02T03:45:44.694911",
+      "relationships": [
+        {
+          "objectId": "declaration_00027",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000127",
+      "type": "Release Cargo",
+      "time": "2024-01-02T03:48:17.105075",
+      "relationships": [
+        {
+          "objectId": "cargo_00024",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00027",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000128",
+      "type": "Register Cargo",
+      "time": "2024-01-02T04:44:56.777741",
+      "relationships": [
+        {
+          "objectId": "cargo_00025",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000129",
+      "type": "File Customs Entry",
+      "time": "2024-01-02T04:53:21.032274",
+      "relationships": [
+        {
+          "objectId": "cargo_00025",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00025",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000130",
+      "type": "Review Declaration",
+      "time": "2024-01-02T04:53:48.453062",
+      "relationships": [
+        {
+          "objectId": "declaration_00025",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000131",
+      "type": "Release Cargo",
+      "time": "2024-01-02T04:54:19.681501",
+      "relationships": [
+        {
+          "objectId": "cargo_00025",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00025",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000132",
+      "type": "Create Declaration",
+      "time": "2024-01-02T05:35:10.935630",
+      "relationships": [
+        {
+          "objectId": "declaration_00028",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000133",
+      "type": "Create Declaration",
+      "time": "2024-01-02T05:42:56.006159",
+      "relationships": [
+        {
+          "objectId": "declaration_00029",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000134",
+      "type": "Create Declaration",
+      "time": "2024-01-02T05:58:38.584390",
+      "relationships": [
+        {
+          "objectId": "declaration_00030",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000135",
+      "type": "Create Declaration",
+      "time": "2024-01-02T06:04:24.550499",
+      "relationships": [
+        {
+          "objectId": "declaration_00031",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000136",
+      "type": "Register Cargo",
+      "time": "2024-01-02T06:48:03.970091",
+      "relationships": [
+        {
+          "objectId": "cargo_00026",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000137",
+      "type": "File Customs Entry",
+      "time": "2024-01-02T06:49:37.976888",
+      "relationships": [
+        {
+          "objectId": "cargo_00026",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00026",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000138",
+      "type": "Register Cargo",
+      "time": "2024-01-02T06:51:02.002343",
+      "relationships": [
+        {
+          "objectId": "cargo_00027",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000139",
+      "type": "File Customs Entry",
+      "time": "2024-01-02T06:53:52.292314",
+      "relationships": [
+        {
+          "objectId": "cargo_00027",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00022",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000140",
+      "type": "Review Declaration",
+      "time": "2024-01-02T06:55:02.040176",
+      "relationships": [
+        {
+          "objectId": "declaration_00026",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000141",
+      "type": "Release Cargo",
+      "time": "2024-01-02T06:56:57.656738",
+      "relationships": [
+        {
+          "objectId": "cargo_00026",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00026",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000142",
+      "type": "Review Declaration",
+      "time": "2024-01-02T06:57:32.925045",
+      "relationships": [
+        {
+          "objectId": "declaration_00022",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000143",
+      "type": "Release Cargo",
+      "time": "2024-01-02T06:58:12.875488",
+      "relationships": [
+        {
+          "objectId": "cargo_00027",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00022",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000144",
+      "type": "Create Declaration",
+      "time": "2024-01-02T07:05:30.774354",
+      "relationships": [
+        {
+          "objectId": "declaration_00032",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000145",
+      "type": "Register Cargo",
+      "time": "2024-01-02T08:05:41.781662",
+      "relationships": [
+        {
+          "objectId": "cargo_00028",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000146",
+      "type": "File Customs Entry",
+      "time": "2024-01-02T08:07:09.951935",
+      "relationships": [
+        {
+          "objectId": "cargo_00028",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00030",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000147",
+      "type": "Review Declaration",
+      "time": "2024-01-02T08:11:30.415231",
+      "relationships": [
+        {
+          "objectId": "declaration_00030",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000148",
+      "type": "Release Cargo",
+      "time": "2024-01-02T08:12:49.473961",
+      "relationships": [
+        {
+          "objectId": "cargo_00028",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00030",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000149",
+      "type": "Register Cargo",
+      "time": "2024-01-02T09:00:07.245056",
+      "relationships": [
+        {
+          "objectId": "cargo_00029",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000150",
+      "type": "File Customs Entry",
+      "time": "2024-01-02T09:00:37.625402",
+      "relationships": [
+        {
+          "objectId": "cargo_00029",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00031",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000151",
+      "type": "Review Declaration",
+      "time": "2024-01-02T09:05:54.826608",
+      "relationships": [
+        {
+          "objectId": "declaration_00031",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000152",
+      "type": "Release Cargo",
+      "time": "2024-01-02T09:06:07.737520",
+      "relationships": [
+        {
+          "objectId": "cargo_00029",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00031",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000153",
+      "type": "Register Cargo",
+      "time": "2024-01-02T09:33:30.145616",
+      "relationships": [
+        {
+          "objectId": "cargo_00030",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000154",
+      "type": "File Customs Entry",
+      "time": "2024-01-02T09:33:57.460319",
+      "relationships": [
+        {
+          "objectId": "cargo_00030",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00032",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000155",
+      "type": "Review Declaration",
+      "time": "2024-01-02T09:35:12.383121",
+      "relationships": [
+        {
+          "objectId": "declaration_00032",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000156",
+      "type": "Release Cargo",
+      "time": "2024-01-02T09:38:24.447222",
+      "relationships": [
+        {
+          "objectId": "cargo_00030",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00032",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000157",
+      "type": "Create Declaration",
+      "time": "2024-01-02T10:12:36.602041",
+      "relationships": [
+        {
+          "objectId": "declaration_00033",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000158",
+      "type": "Register Cargo",
+      "time": "2024-01-02T10:13:20.184871",
+      "relationships": [
+        {
+          "objectId": "cargo_00031",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000159",
+      "type": "File Customs Entry",
+      "time": "2024-01-02T10:19:41.150308",
+      "relationships": [
+        {
+          "objectId": "cargo_00031",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00028",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000160",
+      "type": "Review Declaration",
+      "time": "2024-01-02T10:21:15.520687",
+      "relationships": [
+        {
+          "objectId": "declaration_00028",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000161",
+      "type": "Release Cargo",
+      "time": "2024-01-02T10:23:54.912713",
+      "relationships": [
+        {
+          "objectId": "cargo_00031",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00028",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000162",
+      "type": "Create Declaration",
+      "time": "2024-01-02T10:46:06.772653",
+      "relationships": [
+        {
+          "objectId": "declaration_00034",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000163",
+      "type": "Create Declaration",
+      "time": "2024-01-02T10:59:47.912186",
+      "relationships": [
+        {
+          "objectId": "declaration_00035",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000164",
+      "type": "Create Declaration",
+      "time": "2024-01-02T11:09:31.559441",
+      "relationships": [
+        {
+          "objectId": "declaration_00036",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000165",
+      "type": "Register Cargo",
+      "time": "2024-01-02T11:34:14.448646",
+      "relationships": [
+        {
+          "objectId": "cargo_00032",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000166",
+      "type": "File Customs Entry",
+      "time": "2024-01-02T11:34:29.022452",
+      "relationships": [
+        {
+          "objectId": "cargo_00032",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00035",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000167",
+      "type": "Review Declaration",
+      "time": "2024-01-02T11:35:54.355710",
+      "relationships": [
+        {
+          "objectId": "declaration_00035",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000168",
+      "type": "Register Cargo",
+      "time": "2024-01-02T11:48:09.492271",
+      "relationships": [
+        {
+          "objectId": "cargo_00033",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000169",
+      "type": "File Customs Entry",
+      "time": "2024-01-02T11:49:40.875829",
+      "relationships": [
+        {
+          "objectId": "cargo_00033",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00029",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000170",
+      "type": "Review Declaration",
+      "time": "2024-01-02T11:50:36.185888",
+      "relationships": [
+        {
+          "objectId": "declaration_00029",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000171",
+      "type": "Register Cargo",
+      "time": "2024-01-02T11:52:56.144570",
+      "relationships": [
+        {
+          "objectId": "cargo_00034",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000172",
+      "type": "File Customs Entry",
+      "time": "2024-01-02T11:55:49.835789",
+      "relationships": [
+        {
+          "objectId": "cargo_00034",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00033",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000173",
+      "type": "Release Cargo",
+      "time": "2024-01-02T11:56:06.711329",
+      "relationships": [
+        {
+          "objectId": "cargo_00033",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00029",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000174",
+      "type": "Review Declaration",
+      "time": "2024-01-02T11:56:23.974882",
+      "relationships": [
+        {
+          "objectId": "declaration_00033",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000175",
+      "type": "Release Cargo",
+      "time": "2024-01-02T11:57:16.282151",
+      "relationships": [
+        {
+          "objectId": "cargo_00032",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00035",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000176",
+      "type": "Release Cargo",
+      "time": "2024-01-02T11:58:56.406124",
+      "relationships": [
+        {
+          "objectId": "cargo_00034",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00033",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000177",
+      "type": "Register Cargo",
+      "time": "2024-01-02T12:00:50.579422",
+      "relationships": [
+        {
+          "objectId": "cargo_00035",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000178",
+      "type": "File Customs Entry",
+      "time": "2024-01-02T12:01:33.572549",
+      "relationships": [
+        {
+          "objectId": "cargo_00035",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00034",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000179",
+      "type": "Register Cargo",
+      "time": "2024-01-02T12:01:56.677457",
+      "relationships": [
+        {
+          "objectId": "cargo_00036",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000180",
+      "type": "File Customs Entry",
+      "time": "2024-01-02T12:03:22.818170",
+      "relationships": [
+        {
+          "objectId": "cargo_00036",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00036",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000181",
+      "type": "Review Declaration",
+      "time": "2024-01-02T12:03:27.495053",
+      "relationships": [
+        {
+          "objectId": "declaration_00036",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000182",
+      "type": "Review Declaration",
+      "time": "2024-01-02T12:03:36.091559",
+      "relationships": [
+        {
+          "objectId": "declaration_00034",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000183",
+      "type": "Release Cargo",
+      "time": "2024-01-02T12:04:04.470354",
+      "relationships": [
+        {
+          "objectId": "cargo_00035",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00034",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000184",
+      "type": "Release Cargo",
+      "time": "2024-01-02T12:05:01.198158",
+      "relationships": [
+        {
+          "objectId": "cargo_00036",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00036",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000185",
+      "type": "Create Declaration",
+      "time": "2024-01-02T14:24:10.046535",
+      "relationships": [
+        {
+          "objectId": "declaration_00037",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000186",
+      "type": "Register Cargo",
+      "time": "2024-01-02T14:26:46.226880",
+      "relationships": [
+        {
+          "objectId": "cargo_00037",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000187",
+      "type": "File Customs Entry",
+      "time": "2024-01-02T14:27:15.543376",
+      "relationships": [
+        {
+          "objectId": "cargo_00037",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00037",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000188",
+      "type": "Review Declaration",
+      "time": "2024-01-02T14:30:30.408468",
+      "relationships": [
+        {
+          "objectId": "declaration_00037",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000189",
+      "type": "Release Cargo",
+      "time": "2024-01-02T14:31:08.108720",
+      "relationships": [
+        {
+          "objectId": "cargo_00037",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00037",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000190",
+      "type": "Create Declaration",
+      "time": "2024-01-02T14:44:03.907769",
+      "relationships": [
+        {
+          "objectId": "declaration_00038",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000191",
+      "type": "Register Cargo",
+      "time": "2024-01-02T15:25:08.284871",
+      "relationships": [
+        {
+          "objectId": "cargo_00038",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000192",
+      "type": "File Customs Entry",
+      "time": "2024-01-02T15:35:09.919384",
+      "relationships": [
+        {
+          "objectId": "cargo_00038",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00038",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000193",
+      "type": "Review Declaration",
+      "time": "2024-01-02T15:36:03.048396",
+      "relationships": [
+        {
+          "objectId": "declaration_00038",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000194",
+      "type": "Release Cargo",
+      "time": "2024-01-02T15:36:08.415251",
+      "relationships": [
+        {
+          "objectId": "cargo_00038",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00038",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000195",
+      "type": "Register Cargo",
+      "time": "2024-01-02T16:00:37.725027",
+      "relationships": [
+        {
+          "objectId": "cargo_00039",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000196",
+      "type": "Create Declaration",
+      "time": "2024-01-02T16:02:23.188286",
+      "relationships": [
+        {
+          "objectId": "declaration_00039",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000197",
+      "type": "Create Declaration",
+      "time": "2024-01-02T16:05:40.927609",
+      "relationships": [
+        {
+          "objectId": "declaration_00040",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000198",
+      "type": "File Customs Entry",
+      "time": "2024-01-02T16:05:44.039153",
+      "relationships": [
+        {
+          "objectId": "cargo_00039",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00039",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000199",
+      "type": "Review Declaration",
+      "time": "2024-01-02T16:11:23.815798",
+      "relationships": [
+        {
+          "objectId": "declaration_00039",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000200",
+      "type": "Release Cargo",
+      "time": "2024-01-02T16:11:58.307818",
+      "relationships": [
+        {
+          "objectId": "cargo_00039",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00039",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000201",
+      "type": "Create Declaration",
+      "time": "2024-01-02T16:48:18.968929",
+      "relationships": [
+        {
+          "objectId": "declaration_00041",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000202",
+      "type": "Register Cargo",
+      "time": "2024-01-02T17:06:17.931850",
+      "relationships": [
+        {
+          "objectId": "cargo_00040",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000203",
+      "type": "File Customs Entry",
+      "time": "2024-01-02T17:08:41.806516",
+      "relationships": [
+        {
+          "objectId": "cargo_00040",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00040",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000204",
+      "type": "Review Declaration",
+      "time": "2024-01-02T17:10:25.548751",
+      "relationships": [
+        {
+          "objectId": "declaration_00040",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000205",
+      "type": "Release Cargo",
+      "time": "2024-01-02T17:11:49.212446",
+      "relationships": [
+        {
+          "objectId": "cargo_00040",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00040",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000206",
+      "type": "Create Declaration",
+      "time": "2024-01-02T17:12:13.085411",
+      "relationships": [
+        {
+          "objectId": "declaration_00042",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000207",
+      "type": "Register Cargo",
+      "time": "2024-01-02T17:13:19.472587",
+      "relationships": [
+        {
+          "objectId": "cargo_00042",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000208",
+      "type": "File Customs Entry",
+      "time": "2024-01-02T17:13:40.830194",
+      "relationships": [
+        {
+          "objectId": "cargo_00042",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00042",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000209",
+      "type": "Review Declaration",
+      "time": "2024-01-02T17:15:05.585672",
+      "relationships": [
+        {
+          "objectId": "declaration_00042",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000210",
+      "type": "Release Cargo",
+      "time": "2024-01-02T17:15:09.529711",
+      "relationships": [
+        {
+          "objectId": "cargo_00042",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00042",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000211",
+      "type": "Register Cargo",
+      "time": "2024-01-02T17:16:12.754121",
+      "relationships": [
+        {
+          "objectId": "cargo_00041",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000212",
+      "type": "File Customs Entry",
+      "time": "2024-01-02T17:16:36.340882",
+      "relationships": [
+        {
+          "objectId": "cargo_00041",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00041",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000213",
+      "type": "Review Declaration",
+      "time": "2024-01-02T17:17:57.672279",
+      "relationships": [
+        {
+          "objectId": "declaration_00041",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000214",
+      "type": "Release Cargo",
+      "time": "2024-01-02T17:17:58.813120",
+      "relationships": [
+        {
+          "objectId": "cargo_00041",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00041",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000215",
+      "type": "Register Cargo",
+      "time": "2024-01-02T17:59:33.625649",
+      "relationships": [
+        {
+          "objectId": "cargo_00043",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000216",
+      "type": "Create Declaration",
+      "time": "2024-01-02T18:20:16.185409",
+      "relationships": [
+        {
+          "objectId": "declaration_00043",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000217",
+      "type": "File Customs Entry",
+      "time": "2024-01-02T18:20:28.536961",
+      "relationships": [
+        {
+          "objectId": "cargo_00043",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00043",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000218",
+      "type": "Review Declaration",
+      "time": "2024-01-02T18:24:57.005516",
+      "relationships": [
+        {
+          "objectId": "declaration_00043",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000219",
+      "type": "Release Cargo",
+      "time": "2024-01-02T18:26:11.469247",
+      "relationships": [
+        {
+          "objectId": "cargo_00043",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00043",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000220",
+      "type": "Create Declaration",
+      "time": "2024-01-02T18:45:45.050136",
+      "relationships": [
+        {
+          "objectId": "declaration_00044",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000221",
+      "type": "Create Declaration",
+      "time": "2024-01-02T18:47:35.738393",
+      "relationships": [
+        {
+          "objectId": "declaration_00045",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000222",
+      "type": "Register Cargo",
+      "time": "2024-01-02T18:56:19.079642",
+      "relationships": [
+        {
+          "objectId": "cargo_00044",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000223",
+      "type": "File Customs Entry",
+      "time": "2024-01-02T19:03:28.534859",
+      "relationships": [
+        {
+          "objectId": "cargo_00044",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00044",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000224",
+      "type": "Create Declaration",
+      "time": "2024-01-02T19:05:12.623329",
+      "relationships": [
+        {
+          "objectId": "declaration_00046",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000225",
+      "type": "Review Declaration",
+      "time": "2024-01-02T19:05:59.740287",
+      "relationships": [
+        {
+          "objectId": "declaration_00044",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000226",
+      "type": "Release Cargo",
+      "time": "2024-01-02T19:06:43.257494",
+      "relationships": [
+        {
+          "objectId": "cargo_00044",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00044",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000227",
+      "type": "Create Declaration",
+      "time": "2024-01-02T19:54:29.636237",
+      "relationships": [
+        {
+          "objectId": "declaration_00047",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000228",
+      "type": "Create Declaration",
+      "time": "2024-01-02T20:13:40.305050",
+      "relationships": [
+        {
+          "objectId": "declaration_00048",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000229",
+      "type": "Register Cargo",
+      "time": "2024-01-02T20:23:16.582445",
+      "relationships": [
+        {
+          "objectId": "cargo_00045",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000230",
+      "type": "File Customs Entry",
+      "time": "2024-01-02T20:25:29.864410",
+      "relationships": [
+        {
+          "objectId": "cargo_00045",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00046",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000231",
+      "type": "Review Declaration",
+      "time": "2024-01-02T20:26:13.924500",
+      "relationships": [
+        {
+          "objectId": "declaration_00046",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000232",
+      "type": "Create Declaration",
+      "time": "2024-01-02T20:26:26.219017",
+      "relationships": [
+        {
+          "objectId": "declaration_00049",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000233",
+      "type": "Release Cargo",
+      "time": "2024-01-02T20:30:11.911875",
+      "relationships": [
+        {
+          "objectId": "cargo_00045",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00046",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000234",
+      "type": "Create Declaration",
+      "time": "2024-01-02T20:45:09.990549",
+      "relationships": [
+        {
+          "objectId": "declaration_00050",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000235",
+      "type": "Register Cargo",
+      "time": "2024-01-02T20:45:37.607458",
+      "relationships": [
+        {
+          "objectId": "cargo_00046",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000236",
+      "type": "File Customs Entry",
+      "time": "2024-01-02T20:48:30.710611",
+      "relationships": [
+        {
+          "objectId": "cargo_00046",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00045",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000237",
+      "type": "Review Declaration",
+      "time": "2024-01-02T20:49:08.746819",
+      "relationships": [
+        {
+          "objectId": "declaration_00045",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000238",
+      "type": "Release Cargo",
+      "time": "2024-01-02T20:49:14.624513",
+      "relationships": [
+        {
+          "objectId": "cargo_00046",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00045",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000239",
+      "type": "Create Declaration",
+      "time": "2024-01-02T20:49:38.242901",
+      "relationships": [
+        {
+          "objectId": "declaration_00051",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000240",
+      "type": "Register Cargo",
+      "time": "2024-01-02T21:31:13.548068",
+      "relationships": [
+        {
+          "objectId": "cargo_00047",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000241",
+      "type": "File Customs Entry",
+      "time": "2024-01-02T21:31:38.283362",
+      "relationships": [
+        {
+          "objectId": "cargo_00047",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00050",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000242",
+      "type": "Review Declaration",
+      "time": "2024-01-02T21:33:42.631718",
+      "relationships": [
+        {
+          "objectId": "declaration_00050",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000243",
+      "type": "Release Cargo",
+      "time": "2024-01-02T21:35:31.667516",
+      "relationships": [
+        {
+          "objectId": "cargo_00047",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00050",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000244",
+      "type": "Create Declaration",
+      "time": "2024-01-02T21:43:24.555092",
+      "relationships": [
+        {
+          "objectId": "declaration_00052",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000245",
+      "type": "Create Declaration",
+      "time": "2024-01-02T22:00:13.168732",
+      "relationships": [
+        {
+          "objectId": "declaration_00053",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000246",
+      "type": "Create Declaration",
+      "time": "2024-01-02T22:24:28.768544",
+      "relationships": [
+        {
+          "objectId": "declaration_00054",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000247",
+      "type": "Create Declaration",
+      "time": "2024-01-02T22:24:37.560318",
+      "relationships": [
+        {
+          "objectId": "declaration_00055",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000248",
+      "type": "Register Cargo",
+      "time": "2024-01-02T23:34:10.916098",
+      "relationships": [
+        {
+          "objectId": "cargo_00048",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000249",
+      "type": "File Customs Entry",
+      "time": "2024-01-02T23:39:20.147703",
+      "relationships": [
+        {
+          "objectId": "cargo_00048",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00055",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000250",
+      "type": "Review Declaration",
+      "time": "2024-01-02T23:39:44.157034",
+      "relationships": [
+        {
+          "objectId": "declaration_00055",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000251",
+      "type": "Release Cargo",
+      "time": "2024-01-02T23:45:39.746470",
+      "relationships": [
+        {
+          "objectId": "cargo_00048",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00055",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000252",
+      "type": "Register Cargo",
+      "time": "2024-01-02T23:49:18.654309",
+      "relationships": [
+        {
+          "objectId": "cargo_00049",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000253",
+      "type": "File Customs Entry",
+      "time": "2024-01-02T23:53:03.321271",
+      "relationships": [
+        {
+          "objectId": "cargo_00049",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00051",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000254",
+      "type": "Review Declaration",
+      "time": "2024-01-02T23:55:33.337427",
+      "relationships": [
+        {
+          "objectId": "declaration_00051",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000255",
+      "type": "Release Cargo",
+      "time": "2024-01-03T00:01:46.363509",
+      "relationships": [
+        {
+          "objectId": "cargo_00049",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00051",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000256",
+      "type": "Register Cargo",
+      "time": "2024-01-03T00:28:59.304963",
+      "relationships": [
+        {
+          "objectId": "cargo_00050",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000257",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T00:34:05.365025",
+      "relationships": [
+        {
+          "objectId": "cargo_00050",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00049",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000258",
+      "type": "Review Declaration",
+      "time": "2024-01-03T00:35:58.003031",
+      "relationships": [
+        {
+          "objectId": "declaration_00049",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000259",
+      "type": "Register Cargo",
+      "time": "2024-01-03T00:39:48.254945",
+      "relationships": [
+        {
+          "objectId": "cargo_00051",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000260",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T00:44:35.132294",
+      "relationships": [
+        {
+          "objectId": "cargo_00051",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00048",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000261",
+      "type": "Review Declaration",
+      "time": "2024-01-03T00:49:51.526808",
+      "relationships": [
+        {
+          "objectId": "declaration_00048",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000262",
+      "type": "Register Cargo",
+      "time": "2024-01-03T00:50:30.868097",
+      "relationships": [
+        {
+          "objectId": "cargo_00052",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000263",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T00:50:57.761116",
+      "relationships": [
+        {
+          "objectId": "cargo_00052",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00053",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000264",
+      "type": "Review Declaration",
+      "time": "2024-01-03T00:51:26.721179",
+      "relationships": [
+        {
+          "objectId": "declaration_00053",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000265",
+      "type": "Create Declaration",
+      "time": "2024-01-03T00:58:32.609775",
+      "relationships": [
+        {
+          "objectId": "declaration_00056",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000266",
+      "type": "Release Cargo",
+      "time": "2024-01-03T01:00:51.977834",
+      "relationships": [
+        {
+          "objectId": "cargo_00051",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00048",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000267",
+      "type": "Release Cargo",
+      "time": "2024-01-03T01:01:03.889878",
+      "relationships": [
+        {
+          "objectId": "cargo_00052",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00053",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000268",
+      "type": "Register Cargo",
+      "time": "2024-01-03T01:13:02.320737",
+      "relationships": [
+        {
+          "objectId": "cargo_00053",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000269",
+      "type": "Release Cargo",
+      "time": "2024-01-03T01:16:36.759811",
+      "relationships": [
+        {
+          "objectId": "cargo_00050",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00049",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000270",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T01:18:18.488033",
+      "relationships": [
+        {
+          "objectId": "cargo_00053",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00052",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000271",
+      "type": "Review Declaration",
+      "time": "2024-01-03T01:18:21.223447",
+      "relationships": [
+        {
+          "objectId": "declaration_00052",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000272",
+      "type": "Release Cargo",
+      "time": "2024-01-03T01:18:40.743478",
+      "relationships": [
+        {
+          "objectId": "cargo_00053",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00052",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000273",
+      "type": "Register Cargo",
+      "time": "2024-01-03T01:27:30.527738",
+      "relationships": [
+        {
+          "objectId": "cargo_00055",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000274",
+      "type": "Create Declaration",
+      "time": "2024-01-03T01:30:47.600633",
+      "relationships": [
+        {
+          "objectId": "declaration_00057",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000275",
+      "type": "Register Cargo",
+      "time": "2024-01-03T01:35:01.985607",
+      "relationships": [
+        {
+          "objectId": "cargo_00054",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000276",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T01:36:29.529983",
+      "relationships": [
+        {
+          "objectId": "cargo_00055",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00054",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000277",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T01:38:29.878631",
+      "relationships": [
+        {
+          "objectId": "cargo_00054",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00057",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000278",
+      "type": "Register Cargo",
+      "time": "2024-01-03T01:38:37.502983",
+      "relationships": [
+        {
+          "objectId": "cargo_00056",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000279",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T01:41:36.253332",
+      "relationships": [
+        {
+          "objectId": "cargo_00056",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00047",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000280",
+      "type": "Review Declaration",
+      "time": "2024-01-03T01:41:41.458313",
+      "relationships": [
+        {
+          "objectId": "declaration_00057",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000281",
+      "type": "Review Declaration",
+      "time": "2024-01-03T01:46:34.656257",
+      "relationships": [
+        {
+          "objectId": "declaration_00047",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000282",
+      "type": "Review Declaration",
+      "time": "2024-01-03T01:49:27.232996",
+      "relationships": [
+        {
+          "objectId": "declaration_00054",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000283",
+      "type": "Release Cargo",
+      "time": "2024-01-03T01:49:31.637223",
+      "relationships": [
+        {
+          "objectId": "cargo_00055",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00054",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000284",
+      "type": "Release Cargo",
+      "time": "2024-01-03T02:40:19.287175",
+      "relationships": [
+        {
+          "objectId": "cargo_00054",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00057",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000285",
+      "type": "Release Cargo",
+      "time": "2024-01-03T02:42:56.246807",
+      "relationships": [
+        {
+          "objectId": "cargo_00056",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00047",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000286",
+      "type": "Create Declaration",
+      "time": "2024-01-03T02:43:30.863208",
+      "relationships": [
+        {
+          "objectId": "declaration_00058",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000287",
+      "type": "Register Cargo",
+      "time": "2024-01-03T02:46:07.252131",
+      "relationships": [
+        {
+          "objectId": "cargo_00057",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000288",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T02:48:24.916957",
+      "relationships": [
+        {
+          "objectId": "cargo_00057",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00058",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000289",
+      "type": "Review Declaration",
+      "time": "2024-01-03T02:48:56.943777",
+      "relationships": [
+        {
+          "objectId": "declaration_00058",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000290",
+      "type": "Release Cargo",
+      "time": "2024-01-03T02:49:18.338512",
+      "relationships": [
+        {
+          "objectId": "cargo_00057",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00058",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000291",
+      "type": "Create Declaration",
+      "time": "2024-01-03T02:51:15.448283",
+      "relationships": [
+        {
+          "objectId": "declaration_00059",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000292",
+      "type": "Register Cargo",
+      "time": "2024-01-03T02:52:32.385416",
+      "relationships": [
+        {
+          "objectId": "cargo_00058",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000293",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T02:53:53.015843",
+      "relationships": [
+        {
+          "objectId": "cargo_00058",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00056",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000294",
+      "type": "Review Declaration",
+      "time": "2024-01-03T02:55:20.893212",
+      "relationships": [
+        {
+          "objectId": "declaration_00056",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000295",
+      "type": "Release Cargo",
+      "time": "2024-01-03T02:58:15.631852",
+      "relationships": [
+        {
+          "objectId": "cargo_00058",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00056",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000296",
+      "type": "Create Declaration",
+      "time": "2024-01-03T03:10:20.787769",
+      "relationships": [
+        {
+          "objectId": "declaration_00060",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000297",
+      "type": "Register Cargo",
+      "time": "2024-01-03T03:14:12.157492",
+      "relationships": [
+        {
+          "objectId": "cargo_00059",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000298",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T03:20:51.476252",
+      "relationships": [
+        {
+          "objectId": "cargo_00059",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00059",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000299",
+      "type": "Review Declaration",
+      "time": "2024-01-03T03:22:24.809686",
+      "relationships": [
+        {
+          "objectId": "declaration_00059",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000300",
+      "type": "Release Cargo",
+      "time": "2024-01-03T03:22:49.033617",
+      "relationships": [
+        {
+          "objectId": "cargo_00059",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00059",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000301",
+      "type": "Register Cargo",
+      "time": "2024-01-03T03:54:53.013646",
+      "relationships": [
+        {
+          "objectId": "cargo_00060",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000302",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T03:57:03.956267",
+      "relationships": [
+        {
+          "objectId": "cargo_00060",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00060",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000303",
+      "type": "Review Declaration",
+      "time": "2024-01-03T03:59:15.716088",
+      "relationships": [
+        {
+          "objectId": "declaration_00060",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000304",
+      "type": "Register Cargo",
+      "time": "2024-01-03T03:59:41.302308",
+      "relationships": [
+        {
+          "objectId": "cargo_00061",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000305",
+      "type": "Release Cargo",
+      "time": "2024-01-03T04:01:00.232544",
+      "relationships": [
+        {
+          "objectId": "cargo_00060",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00060",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000306",
+      "type": "Register Cargo",
+      "time": "2024-01-03T04:29:13.368984",
+      "relationships": [
+        {
+          "objectId": "cargo_00062",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000307",
+      "type": "Register Cargo",
+      "time": "2024-01-03T04:53:36.385342",
+      "relationships": [
+        {
+          "objectId": "cargo_00063",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000308",
+      "type": "Create Declaration",
+      "time": "2024-01-03T05:38:34.717672",
+      "relationships": [
+        {
+          "objectId": "declaration_00061",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000309",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T05:38:58.772534",
+      "relationships": [
+        {
+          "objectId": "cargo_00062",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00061",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000310",
+      "type": "Review Declaration",
+      "time": "2024-01-03T05:45:11.983438",
+      "relationships": [
+        {
+          "objectId": "declaration_00061",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000311",
+      "type": "Release Cargo",
+      "time": "2024-01-03T05:47:27.964640",
+      "relationships": [
+        {
+          "objectId": "cargo_00062",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00061",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000312",
+      "type": "Create Declaration",
+      "time": "2024-01-03T06:24:03.494203",
+      "relationships": [
+        {
+          "objectId": "declaration_00062",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000313",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T06:26:41.057806",
+      "relationships": [
+        {
+          "objectId": "cargo_00063",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00062",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000314",
+      "type": "Review Declaration",
+      "time": "2024-01-03T06:29:09.053947",
+      "relationships": [
+        {
+          "objectId": "declaration_00062",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000315",
+      "type": "Release Cargo",
+      "time": "2024-01-03T06:29:09.491203",
+      "relationships": [
+        {
+          "objectId": "cargo_00063",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00062",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000316",
+      "type": "Register Cargo",
+      "time": "2024-01-03T06:40:24.270428",
+      "relationships": [
+        {
+          "objectId": "cargo_00064",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000317",
+      "type": "Create Declaration",
+      "time": "2024-01-03T07:28:55.480758",
+      "relationships": [
+        {
+          "objectId": "declaration_00063",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000318",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T07:29:26.653339",
+      "relationships": [
+        {
+          "objectId": "cargo_00061",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00063",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000319",
+      "type": "Review Declaration",
+      "time": "2024-01-03T07:29:34.903931",
+      "relationships": [
+        {
+          "objectId": "declaration_00063",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000320",
+      "type": "Release Cargo",
+      "time": "2024-01-03T07:34:36.589036",
+      "relationships": [
+        {
+          "objectId": "cargo_00061",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00063",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000321",
+      "type": "Create Declaration",
+      "time": "2024-01-03T08:51:09.834828",
+      "relationships": [
+        {
+          "objectId": "declaration_00064",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000322",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T08:52:05.898542",
+      "relationships": [
+        {
+          "objectId": "cargo_00064",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00064",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000323",
+      "type": "Review Declaration",
+      "time": "2024-01-03T08:54:42.021027",
+      "relationships": [
+        {
+          "objectId": "declaration_00064",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000324",
+      "type": "Release Cargo",
+      "time": "2024-01-03T08:54:53.226451",
+      "relationships": [
+        {
+          "objectId": "cargo_00064",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00064",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000325",
+      "type": "Create Declaration",
+      "time": "2024-01-03T09:11:22.782542",
+      "relationships": [
+        {
+          "objectId": "declaration_00065",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000326",
+      "type": "Register Cargo",
+      "time": "2024-01-03T09:13:42.304618",
+      "relationships": [
+        {
+          "objectId": "cargo_00065",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000327",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T09:19:25.777842",
+      "relationships": [
+        {
+          "objectId": "cargo_00065",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00065",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000328",
+      "type": "Review Declaration",
+      "time": "2024-01-03T09:20:23.336199",
+      "relationships": [
+        {
+          "objectId": "declaration_00065",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000329",
+      "type": "Release Cargo",
+      "time": "2024-01-03T09:21:09.140116",
+      "relationships": [
+        {
+          "objectId": "cargo_00065",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00065",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000330",
+      "type": "Register Cargo",
+      "time": "2024-01-03T09:34:17.401108",
+      "relationships": [
+        {
+          "objectId": "cargo_00066",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000331",
+      "type": "Register Cargo",
+      "time": "2024-01-03T09:38:24.149876",
+      "relationships": [
+        {
+          "objectId": "cargo_00067",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000332",
+      "type": "Register Cargo",
+      "time": "2024-01-03T10:33:11.177583",
+      "relationships": [
+        {
+          "objectId": "cargo_00068",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000333",
+      "type": "Create Declaration",
+      "time": "2024-01-03T10:39:25.137482",
+      "relationships": [
+        {
+          "objectId": "declaration_00066",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000334",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T10:39:42.857246",
+      "relationships": [
+        {
+          "objectId": "cargo_00068",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00066",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000335",
+      "type": "Review Declaration",
+      "time": "2024-01-03T10:39:43.210838",
+      "relationships": [
+        {
+          "objectId": "declaration_00066",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000336",
+      "type": "Create Declaration",
+      "time": "2024-01-03T10:42:01.316596",
+      "relationships": [
+        {
+          "objectId": "declaration_00067",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000337",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T10:45:03.554655",
+      "relationships": [
+        {
+          "objectId": "cargo_00066",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00067",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000338",
+      "type": "Review Declaration",
+      "time": "2024-01-03T10:45:46.365361",
+      "relationships": [
+        {
+          "objectId": "declaration_00067",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000339",
+      "type": "Register Cargo",
+      "time": "2024-01-03T10:50:22.007363",
+      "relationships": [
+        {
+          "objectId": "cargo_00069",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000340",
+      "type": "Release Cargo",
+      "time": "2024-01-03T10:52:17.905893",
+      "relationships": [
+        {
+          "objectId": "cargo_00068",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00066",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000341",
+      "type": "Release Cargo",
+      "time": "2024-01-03T10:55:57.423347",
+      "relationships": [
+        {
+          "objectId": "cargo_00066",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00067",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000342",
+      "type": "Create Declaration",
+      "time": "2024-01-03T11:06:02.732986",
+      "relationships": [
+        {
+          "objectId": "declaration_00068",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000343",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T11:06:18.689182",
+      "relationships": [
+        {
+          "objectId": "cargo_00069",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00068",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000344",
+      "type": "Review Declaration",
+      "time": "2024-01-03T11:07:55.236393",
+      "relationships": [
+        {
+          "objectId": "declaration_00068",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000345",
+      "type": "Release Cargo",
+      "time": "2024-01-03T11:08:35.119107",
+      "relationships": [
+        {
+          "objectId": "cargo_00069",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00068",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000346",
+      "type": "Register Cargo",
+      "time": "2024-01-03T11:11:11.931014",
+      "relationships": [
+        {
+          "objectId": "cargo_00070",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000347",
+      "type": "Register Cargo",
+      "time": "2024-01-03T11:25:54.931760",
+      "relationships": [
+        {
+          "objectId": "cargo_00071",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000348",
+      "type": "Create Declaration",
+      "time": "2024-01-03T11:26:59.970826",
+      "relationships": [
+        {
+          "objectId": "declaration_00069",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000349",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T11:27:30.762355",
+      "relationships": [
+        {
+          "objectId": "cargo_00067",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00069",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000350",
+      "type": "Review Declaration",
+      "time": "2024-01-03T11:30:01.806788",
+      "relationships": [
+        {
+          "objectId": "declaration_00069",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000351",
+      "type": "Release Cargo",
+      "time": "2024-01-03T11:34:09.806480",
+      "relationships": [
+        {
+          "objectId": "cargo_00067",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00069",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000352",
+      "type": "Create Declaration",
+      "time": "2024-01-03T11:54:49.362360",
+      "relationships": [
+        {
+          "objectId": "declaration_00070",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000353",
+      "type": "Register Cargo",
+      "time": "2024-01-03T11:54:59.562846",
+      "relationships": [
+        {
+          "objectId": "cargo_00072",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000354",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T11:57:44.442609",
+      "relationships": [
+        {
+          "objectId": "cargo_00072",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00070",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000355",
+      "type": "Review Declaration",
+      "time": "2024-01-03T11:59:24.211754",
+      "relationships": [
+        {
+          "objectId": "declaration_00070",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000356",
+      "type": "Release Cargo",
+      "time": "2024-01-03T12:00:30.883711",
+      "relationships": [
+        {
+          "objectId": "cargo_00072",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00070",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000357",
+      "type": "Register Cargo",
+      "time": "2024-01-03T12:21:05.036302",
+      "relationships": [
+        {
+          "objectId": "cargo_00073",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000358",
+      "type": "Create Declaration",
+      "time": "2024-01-03T13:03:54.098601",
+      "relationships": [
+        {
+          "objectId": "declaration_00071",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000359",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T13:08:41.039145",
+      "relationships": [
+        {
+          "objectId": "cargo_00071",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00071",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000360",
+      "type": "Review Declaration",
+      "time": "2024-01-03T13:09:50.837720",
+      "relationships": [
+        {
+          "objectId": "declaration_00071",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000361",
+      "type": "Release Cargo",
+      "time": "2024-01-03T13:10:42.795127",
+      "relationships": [
+        {
+          "objectId": "cargo_00071",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00071",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000362",
+      "type": "Create Declaration",
+      "time": "2024-01-03T13:29:22.230103",
+      "relationships": [
+        {
+          "objectId": "declaration_00072",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000363",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T13:32:22.953849",
+      "relationships": [
+        {
+          "objectId": "cargo_00073",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00072",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000364",
+      "type": "Review Declaration",
+      "time": "2024-01-03T13:33:17.183718",
+      "relationships": [
+        {
+          "objectId": "declaration_00072",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000365",
+      "type": "Release Cargo",
+      "time": "2024-01-03T13:34:09.760896",
+      "relationships": [
+        {
+          "objectId": "cargo_00073",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00072",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000366",
+      "type": "Create Declaration",
+      "time": "2024-01-03T13:50:08.187644",
+      "relationships": [
+        {
+          "objectId": "declaration_00073",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000367",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T13:51:46.787974",
+      "relationships": [
+        {
+          "objectId": "cargo_00070",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00073",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000368",
+      "type": "Review Declaration",
+      "time": "2024-01-03T13:55:26.184530",
+      "relationships": [
+        {
+          "objectId": "declaration_00073",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000369",
+      "type": "Release Cargo",
+      "time": "2024-01-03T13:55:39.111933",
+      "relationships": [
+        {
+          "objectId": "cargo_00070",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00073",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000370",
+      "type": "Register Cargo",
+      "time": "2024-01-03T14:22:54.432098",
+      "relationships": [
+        {
+          "objectId": "cargo_00074",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000371",
+      "type": "Create Declaration",
+      "time": "2024-01-03T14:31:41.699189",
+      "relationships": [
+        {
+          "objectId": "declaration_00074",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000372",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T14:32:08.247651",
+      "relationships": [
+        {
+          "objectId": "cargo_00074",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00074",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000373",
+      "type": "Review Declaration",
+      "time": "2024-01-03T14:33:26.089059",
+      "relationships": [
+        {
+          "objectId": "declaration_00074",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000374",
+      "type": "Create Declaration",
+      "time": "2024-01-03T14:36:16.479721",
+      "relationships": [
+        {
+          "objectId": "declaration_00075",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000375",
+      "type": "Release Cargo",
+      "time": "2024-01-03T14:38:14.021093",
+      "relationships": [
+        {
+          "objectId": "cargo_00074",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00074",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000376",
+      "type": "Create Declaration",
+      "time": "2024-01-03T14:41:06.775613",
+      "relationships": [
+        {
+          "objectId": "declaration_00076",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000377",
+      "type": "Create Declaration",
+      "time": "2024-01-03T16:12:07.570771",
+      "relationships": [
+        {
+          "objectId": "declaration_00077",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000378",
+      "type": "Register Cargo",
+      "time": "2024-01-03T16:27:11.308097",
+      "relationships": [
+        {
+          "objectId": "cargo_00075",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000379",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T16:28:57.351567",
+      "relationships": [
+        {
+          "objectId": "cargo_00075",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00076",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000380",
+      "type": "Review Declaration",
+      "time": "2024-01-03T16:29:37.522479",
+      "relationships": [
+        {
+          "objectId": "declaration_00076",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000381",
+      "type": "Release Cargo",
+      "time": "2024-01-03T16:32:07.730357",
+      "relationships": [
+        {
+          "objectId": "cargo_00075",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00076",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000382",
+      "type": "Create Declaration",
+      "time": "2024-01-03T16:34:54.174504",
+      "relationships": [
+        {
+          "objectId": "declaration_00078",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000383",
+      "type": "Create Declaration",
+      "time": "2024-01-03T17:26:12.387449",
+      "relationships": [
+        {
+          "objectId": "declaration_00079",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000384",
+      "type": "Register Cargo",
+      "time": "2024-01-03T17:31:09.118070",
+      "relationships": [
+        {
+          "objectId": "cargo_00076",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000385",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T17:35:14.078116",
+      "relationships": [
+        {
+          "objectId": "cargo_00076",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00079",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000386",
+      "type": "Review Declaration",
+      "time": "2024-01-03T17:35:41.681145",
+      "relationships": [
+        {
+          "objectId": "declaration_00079",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000387",
+      "type": "Release Cargo",
+      "time": "2024-01-03T17:37:01.397032",
+      "relationships": [
+        {
+          "objectId": "cargo_00076",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00079",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000388",
+      "type": "Create Declaration",
+      "time": "2024-01-03T17:44:00.620602",
+      "relationships": [
+        {
+          "objectId": "declaration_00080",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000389",
+      "type": "Register Cargo",
+      "time": "2024-01-03T17:51:16.601163",
+      "relationships": [
+        {
+          "objectId": "cargo_00077",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000390",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T17:51:54.708255",
+      "relationships": [
+        {
+          "objectId": "cargo_00077",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00078",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000391",
+      "type": "Review Declaration",
+      "time": "2024-01-03T17:53:12.692867",
+      "relationships": [
+        {
+          "objectId": "declaration_00078",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000392",
+      "type": "Register Cargo",
+      "time": "2024-01-03T17:57:27.339107",
+      "relationships": [
+        {
+          "objectId": "cargo_00078",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000393",
+      "type": "Release Cargo",
+      "time": "2024-01-03T18:01:54.852091",
+      "relationships": [
+        {
+          "objectId": "cargo_00077",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00078",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000394",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T18:08:19.655647",
+      "relationships": [
+        {
+          "objectId": "cargo_00078",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00080",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000395",
+      "type": "Review Declaration",
+      "time": "2024-01-03T18:10:29.713600",
+      "relationships": [
+        {
+          "objectId": "declaration_00080",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000396",
+      "type": "Release Cargo",
+      "time": "2024-01-03T18:10:45.765678",
+      "relationships": [
+        {
+          "objectId": "cargo_00078",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00080",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000397",
+      "type": "Register Cargo",
+      "time": "2024-01-03T18:15:52.695593",
+      "relationships": [
+        {
+          "objectId": "cargo_00079",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000398",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T18:17:27.072633",
+      "relationships": [
+        {
+          "objectId": "cargo_00079",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00075",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000399",
+      "type": "Review Declaration",
+      "time": "2024-01-03T18:18:58.760058",
+      "relationships": [
+        {
+          "objectId": "declaration_00075",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000400",
+      "type": "Release Cargo",
+      "time": "2024-01-03T18:19:02.431809",
+      "relationships": [
+        {
+          "objectId": "cargo_00079",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00075",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000401",
+      "type": "Create Declaration",
+      "time": "2024-01-03T18:24:50.227015",
+      "relationships": [
+        {
+          "objectId": "declaration_00081",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000402",
+      "type": "Create Declaration",
+      "time": "2024-01-03T18:47:02.205175",
+      "relationships": [
+        {
+          "objectId": "declaration_00082",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000403",
+      "type": "Create Declaration",
+      "time": "2024-01-03T19:12:12.029459",
+      "relationships": [
+        {
+          "objectId": "declaration_00083",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000404",
+      "type": "Register Cargo",
+      "time": "2024-01-03T19:28:20.078928",
+      "relationships": [
+        {
+          "objectId": "cargo_00080",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000405",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T19:29:47.367913",
+      "relationships": [
+        {
+          "objectId": "cargo_00080",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00083",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000406",
+      "type": "Review Declaration",
+      "time": "2024-01-03T19:31:27.589635",
+      "relationships": [
+        {
+          "objectId": "declaration_00083",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000407",
+      "type": "Release Cargo",
+      "time": "2024-01-03T19:31:36.589027",
+      "relationships": [
+        {
+          "objectId": "cargo_00080",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00083",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000408",
+      "type": "Register Cargo",
+      "time": "2024-01-03T19:41:41.327005",
+      "relationships": [
+        {
+          "objectId": "cargo_00081",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000409",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T19:41:41.666290",
+      "relationships": [
+        {
+          "objectId": "cargo_00081",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00082",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000410",
+      "type": "Review Declaration",
+      "time": "2024-01-03T19:47:49.145099",
+      "relationships": [
+        {
+          "objectId": "declaration_00082",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000411",
+      "type": "Release Cargo",
+      "time": "2024-01-03T19:51:48.566104",
+      "relationships": [
+        {
+          "objectId": "cargo_00081",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00082",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000412",
+      "type": "Register Cargo",
+      "time": "2024-01-03T20:02:41.046545",
+      "relationships": [
+        {
+          "objectId": "cargo_00082",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000413",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T20:08:39.907108",
+      "relationships": [
+        {
+          "objectId": "cargo_00082",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00077",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000414",
+      "type": "Create Declaration",
+      "time": "2024-01-03T20:12:41.809348",
+      "relationships": [
+        {
+          "objectId": "declaration_00084",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000415",
+      "type": "Review Declaration",
+      "time": "2024-01-03T20:15:15.767716",
+      "relationships": [
+        {
+          "objectId": "declaration_00077",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000416",
+      "type": "Release Cargo",
+      "time": "2024-01-03T20:17:08.049985",
+      "relationships": [
+        {
+          "objectId": "cargo_00082",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00077",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000417",
+      "type": "Register Cargo",
+      "time": "2024-01-03T20:20:25.662986",
+      "relationships": [
+        {
+          "objectId": "cargo_00083",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000418",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T20:22:47.710871",
+      "relationships": [
+        {
+          "objectId": "cargo_00083",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00081",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000419",
+      "type": "Review Declaration",
+      "time": "2024-01-03T20:27:37.952307",
+      "relationships": [
+        {
+          "objectId": "declaration_00081",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000420",
+      "type": "Release Cargo",
+      "time": "2024-01-03T20:33:50.039723",
+      "relationships": [
+        {
+          "objectId": "cargo_00083",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00081",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000421",
+      "type": "Create Declaration",
+      "time": "2024-01-03T21:01:04.749007",
+      "relationships": [
+        {
+          "objectId": "declaration_00085",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000422",
+      "type": "Register Cargo",
+      "time": "2024-01-03T21:13:58.505242",
+      "relationships": [
+        {
+          "objectId": "cargo_00084",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000423",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T21:20:55.244885",
+      "relationships": [
+        {
+          "objectId": "cargo_00084",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00085",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000424",
+      "type": "Review Declaration",
+      "time": "2024-01-03T21:23:52.493522",
+      "relationships": [
+        {
+          "objectId": "declaration_00085",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000425",
+      "type": "Release Cargo",
+      "time": "2024-01-03T21:24:35.729851",
+      "relationships": [
+        {
+          "objectId": "cargo_00084",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00085",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000426",
+      "type": "Create Declaration",
+      "time": "2024-01-03T21:39:50.091689",
+      "relationships": [
+        {
+          "objectId": "declaration_00086",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000427",
+      "type": "Create Declaration",
+      "time": "2024-01-03T22:03:39.899084",
+      "relationships": [
+        {
+          "objectId": "declaration_00087",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000428",
+      "type": "Register Cargo",
+      "time": "2024-01-03T22:31:54.808309",
+      "relationships": [
+        {
+          "objectId": "cargo_00085",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000429",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T22:34:03.195309",
+      "relationships": [
+        {
+          "objectId": "cargo_00085",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00087",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000430",
+      "type": "Review Declaration",
+      "time": "2024-01-03T22:34:55.264856",
+      "relationships": [
+        {
+          "objectId": "declaration_00087",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000431",
+      "type": "Release Cargo",
+      "time": "2024-01-03T22:41:50.050516",
+      "relationships": [
+        {
+          "objectId": "cargo_00085",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00087",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000432",
+      "type": "Register Cargo",
+      "time": "2024-01-03T23:19:24.743365",
+      "relationships": [
+        {
+          "objectId": "cargo_00086",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000433",
+      "type": "File Customs Entry",
+      "time": "2024-01-03T23:21:04.050211",
+      "relationships": [
+        {
+          "objectId": "cargo_00086",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00084",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000434",
+      "type": "Review Declaration",
+      "time": "2024-01-03T23:23:04.077604",
+      "relationships": [
+        {
+          "objectId": "declaration_00084",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000435",
+      "type": "Release Cargo",
+      "time": "2024-01-03T23:23:18.200363",
+      "relationships": [
+        {
+          "objectId": "cargo_00086",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00084",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000436",
+      "type": "Create Declaration",
+      "time": "2024-01-03T23:28:46.299727",
+      "relationships": [
+        {
+          "objectId": "declaration_00088",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000437",
+      "type": "Create Declaration",
+      "time": "2024-01-03T23:42:22.429206",
+      "relationships": [
+        {
+          "objectId": "declaration_00089",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000438",
+      "type": "Create Declaration",
+      "time": "2024-01-04T00:25:07.761667",
+      "relationships": [
+        {
+          "objectId": "declaration_00090",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000439",
+      "type": "Create Declaration",
+      "time": "2024-01-04T00:28:42.795647",
+      "relationships": [
+        {
+          "objectId": "declaration_00091",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000440",
+      "type": "Register Cargo",
+      "time": "2024-01-04T00:42:28.332046",
+      "relationships": [
+        {
+          "objectId": "cargo_00087",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000441",
+      "type": "File Customs Entry",
+      "time": "2024-01-04T00:43:26.553827",
+      "relationships": [
+        {
+          "objectId": "cargo_00087",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00086",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000442",
+      "type": "Review Declaration",
+      "time": "2024-01-04T00:43:37.653352",
+      "relationships": [
+        {
+          "objectId": "declaration_00086",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000443",
+      "type": "Release Cargo",
+      "time": "2024-01-04T00:44:04.586456",
+      "relationships": [
+        {
+          "objectId": "cargo_00087",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00086",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000444",
+      "type": "Register Cargo",
+      "time": "2024-01-04T00:54:11.340633",
+      "relationships": [
+        {
+          "objectId": "cargo_00088",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000445",
+      "type": "File Customs Entry",
+      "time": "2024-01-04T00:55:24.873196",
+      "relationships": [
+        {
+          "objectId": "cargo_00088",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00090",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000446",
+      "type": "Review Declaration",
+      "time": "2024-01-04T00:57:17.388815",
+      "relationships": [
+        {
+          "objectId": "declaration_00090",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000447",
+      "type": "Release Cargo",
+      "time": "2024-01-04T01:02:08.233025",
+      "relationships": [
+        {
+          "objectId": "cargo_00088",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00090",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000448",
+      "type": "Create Declaration",
+      "time": "2024-01-04T01:57:34.356916",
+      "relationships": [
+        {
+          "objectId": "declaration_00092",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000449",
+      "type": "Register Cargo",
+      "time": "2024-01-04T02:21:22.894849",
+      "relationships": [
+        {
+          "objectId": "cargo_00090",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000450",
+      "type": "Register Cargo",
+      "time": "2024-01-04T02:24:25.149118",
+      "relationships": [
+        {
+          "objectId": "cargo_00089",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000451",
+      "type": "File Customs Entry",
+      "time": "2024-01-04T02:24:52.692592",
+      "relationships": [
+        {
+          "objectId": "cargo_00090",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00091",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000452",
+      "type": "File Customs Entry",
+      "time": "2024-01-04T02:25:19.009423",
+      "relationships": [
+        {
+          "objectId": "cargo_00089",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00088",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000453",
+      "type": "Review Declaration",
+      "time": "2024-01-04T02:25:26.163563",
+      "relationships": [
+        {
+          "objectId": "declaration_00091",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000454",
+      "type": "Release Cargo",
+      "time": "2024-01-04T02:27:43.409747",
+      "relationships": [
+        {
+          "objectId": "cargo_00090",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00091",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000455",
+      "type": "Review Declaration",
+      "time": "2024-01-04T02:28:59.726062",
+      "relationships": [
+        {
+          "objectId": "declaration_00088",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000456",
+      "type": "Release Cargo",
+      "time": "2024-01-04T02:33:10.793562",
+      "relationships": [
+        {
+          "objectId": "cargo_00089",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00088",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000457",
+      "type": "Register Cargo",
+      "time": "2024-01-04T03:12:11.088162",
+      "relationships": [
+        {
+          "objectId": "cargo_00091",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000458",
+      "type": "File Customs Entry",
+      "time": "2024-01-04T03:12:54.500470",
+      "relationships": [
+        {
+          "objectId": "cargo_00091",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00092",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000459",
+      "type": "Review Declaration",
+      "time": "2024-01-04T03:14:33.235938",
+      "relationships": [
+        {
+          "objectId": "declaration_00092",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000460",
+      "type": "Release Cargo",
+      "time": "2024-01-04T03:24:27.209266",
+      "relationships": [
+        {
+          "objectId": "cargo_00091",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00092",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000461",
+      "type": "Register Cargo",
+      "time": "2024-01-04T03:40:51.076131",
+      "relationships": [
+        {
+          "objectId": "cargo_00092",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000462",
+      "type": "File Customs Entry",
+      "time": "2024-01-04T03:42:31.658893",
+      "relationships": [
+        {
+          "objectId": "cargo_00092",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00089",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000463",
+      "type": "Review Declaration",
+      "time": "2024-01-04T03:42:39.661117",
+      "relationships": [
+        {
+          "objectId": "declaration_00089",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000464",
+      "type": "Release Cargo",
+      "time": "2024-01-04T03:43:23.844210",
+      "relationships": [
+        {
+          "objectId": "cargo_00092",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00089",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000465",
+      "type": "Register Cargo",
+      "time": "2024-01-04T03:45:34.467931",
+      "relationships": [
+        {
+          "objectId": "cargo_00093",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000466",
+      "type": "Register Cargo",
+      "time": "2024-01-04T03:47:38.008642",
+      "relationships": [
+        {
+          "objectId": "cargo_00094",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000467",
+      "type": "Register Cargo",
+      "time": "2024-01-04T04:47:15.974086",
+      "relationships": [
+        {
+          "objectId": "cargo_00095",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000468",
+      "type": "Register Cargo",
+      "time": "2024-01-04T04:50:48.622461",
+      "relationships": [
+        {
+          "objectId": "cargo_00096",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000470",
+      "type": "Create Declaration",
+      "time": "2024-01-04T05:15:56.615870",
+      "relationships": [
+        {
+          "objectId": "declaration_00093",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000471",
+      "type": "File Customs Entry",
+      "time": "2024-01-04T05:18:04.837727",
+      "relationships": [
+        {
+          "objectId": "cargo_00096",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00093",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000472",
+      "type": "Review Declaration",
+      "time": "2024-01-04T05:20:19.150780",
+      "relationships": [
+        {
+          "objectId": "declaration_00093",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000473",
+      "type": "Release Cargo",
+      "time": "2024-01-04T05:22:22.500285",
+      "relationships": [
+        {
+          "objectId": "cargo_00096",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00093",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000474",
+      "type": "Create Declaration",
+      "time": "2024-01-04T05:40:29.740443",
+      "relationships": [
+        {
+          "objectId": "declaration_00094",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000475",
+      "type": "File Customs Entry",
+      "time": "2024-01-04T05:41:22.772472",
+      "relationships": [
+        {
+          "objectId": "cargo_00094",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00094",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000476",
+      "type": "Review Declaration",
+      "time": "2024-01-04T05:41:35.475983",
+      "relationships": [
+        {
+          "objectId": "declaration_00094",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000477",
+      "type": "Release Cargo",
+      "time": "2024-01-04T05:42:53.932484",
+      "relationships": [
+        {
+          "objectId": "cargo_00094",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00094",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000479",
+      "type": "Create Declaration",
+      "time": "2024-01-04T06:57:05.907410",
+      "relationships": [
+        {
+          "objectId": "declaration_00095",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000480",
+      "type": "File Customs Entry",
+      "time": "2024-01-04T06:58:49.955107",
+      "relationships": [
+        {
+          "objectId": "cargo_00093",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00095",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000481",
+      "type": "Review Declaration",
+      "time": "2024-01-04T06:59:30.856979",
+      "relationships": [
+        {
+          "objectId": "declaration_00095",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000482",
+      "type": "Release Cargo",
+      "time": "2024-01-04T07:00:35.682288",
+      "relationships": [
+        {
+          "objectId": "cargo_00093",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00095",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000483",
+      "type": "Register Cargo",
+      "time": "2024-01-04T07:09:09.792332",
+      "relationships": [
+        {
+          "objectId": "cargo_00099",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000484",
+      "type": "Register Cargo",
+      "time": "2024-01-04T07:29:15.523867",
+      "relationships": [
+        {
+          "objectId": "cargo_00100",
+          "qualifier": "Register Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000486",
+      "type": "Create Declaration",
+      "time": "2024-01-04T08:14:00.458248",
+      "relationships": [
+        {
+          "objectId": "declaration_00096",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000487",
+      "type": "File Customs Entry",
+      "time": "2024-01-04T08:14:34.047345",
+      "relationships": [
+        {
+          "objectId": "cargo_00095",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00096",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000488",
+      "type": "Review Declaration",
+      "time": "2024-01-04T08:20:21.544881",
+      "relationships": [
+        {
+          "objectId": "declaration_00096",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000489",
+      "type": "Release Cargo",
+      "time": "2024-01-04T08:21:14.677629",
+      "relationships": [
+        {
+          "objectId": "cargo_00095",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00096",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000492",
+      "type": "Create Declaration",
+      "time": "2024-01-04T09:05:19.254747",
+      "relationships": [
+        {
+          "objectId": "declaration_00097",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000493",
+      "type": "File Customs Entry",
+      "time": "2024-01-04T09:08:04.717465",
+      "relationships": [
+        {
+          "objectId": "cargo_00100",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00097",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000494",
+      "type": "Review Declaration",
+      "time": "2024-01-04T09:11:59.572630",
+      "relationships": [
+        {
+          "objectId": "declaration_00097",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000495",
+      "type": "Release Cargo",
+      "time": "2024-01-04T09:13:09.581621",
+      "relationships": [
+        {
+          "objectId": "cargo_00100",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00097",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    },
+    {
+      "id": "e0000496",
+      "type": "Create Declaration",
+      "time": "2024-01-04T10:05:26.595067",
+      "relationships": [
+        {
+          "objectId": "declaration_00098",
+          "qualifier": "Create Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000497",
+      "type": "File Customs Entry",
+      "time": "2024-01-04T10:09:24.901254",
+      "relationships": [
+        {
+          "objectId": "cargo_00099",
+          "qualifier": "File Customs Entry"
+        },
+        {
+          "objectId": "declaration_00098",
+          "qualifier": "File Customs Entry"
+        }
+      ]
+    },
+    {
+      "id": "e0000498",
+      "type": "Review Declaration",
+      "time": "2024-01-04T10:10:59.731973",
+      "relationships": [
+        {
+          "objectId": "declaration_00098",
+          "qualifier": "Review Declaration"
+        }
+      ]
+    },
+    {
+      "id": "e0000499",
+      "type": "Release Cargo",
+      "time": "2024-01-04T10:11:20.040241",
+      "relationships": [
+        {
+          "objectId": "cargo_00099",
+          "qualifier": "Release Cargo"
+        },
+        {
+          "objectId": "declaration_00098",
+          "qualifier": "Release Cargo"
+        }
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "id": "cargo_00000",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00001",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00002",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00003",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00004",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00005",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00006",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00007",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00008",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00009",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00010",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00011",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00012",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00013",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00014",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00015",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00016",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00017",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00018",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00019",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00020",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00021",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00022",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00023",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00024",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00025",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00026",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00027",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00028",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00029",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00030",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00031",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00032",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00033",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00034",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00035",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00036",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00037",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00038",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00039",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00040",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00041",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00042",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00043",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00044",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00045",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00046",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00047",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00048",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00049",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00050",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00051",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00052",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00053",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00054",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00055",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00056",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00057",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00058",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00059",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00060",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00061",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00062",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00063",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00064",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00065",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00066",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00067",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00068",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00069",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00070",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00071",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00072",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00073",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00074",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00075",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00076",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00077",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00078",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00079",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00080",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00081",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00082",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00083",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00084",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00085",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00086",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00087",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00088",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00089",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00090",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00091",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00092",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00093",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00094",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00095",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00096",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00099",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "cargo_00100",
+      "type": "Cargo",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00000",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00001",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00002",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00003",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00004",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00005",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00006",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00007",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00008",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00009",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00010",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00011",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00012",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00013",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00014",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00015",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00016",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00017",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00018",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00019",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00020",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00021",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00022",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00023",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00024",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00025",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00026",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00027",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00028",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00029",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00030",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00031",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00032",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00033",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00034",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00035",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00036",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00037",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00038",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00039",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00040",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00041",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00042",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00043",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00044",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00045",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00046",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00047",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00048",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00049",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00050",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00051",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00052",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00053",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00054",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00055",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00056",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00057",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00058",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00059",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00060",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00061",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00062",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00063",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00064",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00065",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00066",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00067",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00068",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00069",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00070",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00071",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00072",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00073",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00074",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00075",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00076",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00077",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00078",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00079",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00080",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00081",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00082",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00083",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00084",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00085",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00086",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00087",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00088",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00089",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00090",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00091",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00092",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00093",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00094",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00095",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00096",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00097",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    },
+    {
+      "id": "declaration_00098",
+      "type": "Declaration",
+      "attributes": [],
+      "relationships": []
+    }
+  ]
+}

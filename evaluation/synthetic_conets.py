@@ -485,83 +485,84 @@ def aircraft_maintenance_conet() -> SyntheticOCoN:
     return SyntheticOCoN("aircraft_maintenance", workflow_net)
 
 
-def concurrent_composition_conet() -> SyntheticOCoN:
-    """A composition whose member participates in a concurrent branch.
+def customs_clearance_conet() -> SyntheticOCoN:
+    """A customs entry whose declaration is reviewed on a concurrent branch.
 
-    ``Form Composition`` duplicates the case object: one token is composed with the item while the
-    other enters an independent review branch. The review must finish before the branches join and
-    the composition is decomposed. Consequently, each case/item pair has the event sequence
-    ``Form Composition`` (both), ``Review Case`` (case only), ``Close Composition`` (both). The
-    composition miner therefore never observes two consecutive events over the complete pair.
+    ``File Customs Entry`` duplicates the declaration: one token is composed with the cargo while
+    the other enters an independent review branch. The review must finish before the branches join
+    and the entry is released. Consequently, each declaration/cargo pair has the event sequence
+    ``File Customs Entry`` (both), ``Review Declaration`` (declaration only), ``Release Cargo``
+    (both). The composition miner therefore never observes two consecutive events over the complete
+    pair.
     """
-    case, item = "Case", "Item"
-    composition = higher_type((case, 1), (item, 1))
+    declaration, cargo = "Declaration", "Cargo"
+    customs_entry = higher_type((declaration, 1), (cargo, 1))
 
-    case_src = place("Case_src", base_type(case))
-    case_ready = place("Case_ready", base_type(case))
-    item_src = place("Item_src", base_type(item))
-    item_ready = place("Item_ready", base_type(item))
-    composition_active = place("Composition_active", composition)
-    case_review_pending = place("Case_review_pending", base_type(case))
-    case_reviewed = place("Case_reviewed", base_type(case))
-    case_sink = place("Case_sink", base_type(case))
-    item_sink = place("Item_sink", base_type(item))
+    declaration_src = place("Declaration_src", base_type(declaration))
+    declaration_ready = place("Declaration_ready", base_type(declaration))
+    cargo_src = place("Cargo_src", base_type(cargo))
+    cargo_ready = place("Cargo_ready", base_type(cargo))
+    entry_active = place("CustomsEntry_active", customs_entry)
+    declaration_review_pending = place("Declaration_review_pending", base_type(declaration))
+    declaration_reviewed = place("Declaration_reviewed", base_type(declaration))
+    declaration_sink = place("Declaration_sink", base_type(declaration))
+    cargo_sink = place("Cargo_sink", base_type(cargo))
 
-    create_case = transition("create_case", "Create Case", (0, 0))
-    register_item = transition("register_item", "Register Item", (0, 0))
-    form_composition = transition("form_composition", "Form Composition", (0, 1))
-    review_case = transition("review_case", "Review Case", (0, 0))
-    close_composition = transition("close_composition", "Close Composition", (1, 0))
+    create_declaration = transition("create_declaration", "Create Declaration", (0, 0))
+    register_cargo = transition("register_cargo", "Register Cargo", (0, 0))
+    file_entry = transition("file_entry", "File Customs Entry", (0, 1))
+    review_declaration = transition("review_declaration", "Review Declaration", (0, 0))
+    release_cargo = transition("release_cargo", "Release Cargo", (1, 0))
 
     places = {
-        case_src,
-        case_ready,
-        item_src,
-        item_ready,
-        composition_active,
-        case_review_pending,
-        case_reviewed,
-        case_sink,
-        item_sink,
+        declaration_src,
+        declaration_ready,
+        cargo_src,
+        cargo_ready,
+        entry_active,
+        declaration_review_pending,
+        declaration_reviewed,
+        declaration_sink,
+        cargo_sink,
     }
     transitions = {
-        create_case,
-        register_item,
-        form_composition,
-        review_case,
-        close_composition,
+        create_declaration,
+        register_cargo,
+        file_entry,
+        review_declaration,
+        release_cargo,
     }
     arcs = {
-        Arc(case_src, create_case),
-        Arc(create_case, case_ready),
-        Arc(item_src, register_item),
-        Arc(register_item, item_ready),
-        Arc(case_ready, form_composition),
-        Arc(item_ready, form_composition),
-        Arc(form_composition, composition_active),
-        Arc(form_composition, case_review_pending),
-        Arc(case_review_pending, review_case),
-        Arc(review_case, case_reviewed),
-        Arc(composition_active, close_composition),
-        Arc(case_reviewed, close_composition),
-        Arc(close_composition, case_sink),
-        Arc(close_composition, item_sink),
+        Arc(declaration_src, create_declaration),
+        Arc(create_declaration, declaration_ready),
+        Arc(cargo_src, register_cargo),
+        Arc(register_cargo, cargo_ready),
+        Arc(declaration_ready, file_entry),
+        Arc(cargo_ready, file_entry),
+        Arc(file_entry, entry_active),
+        Arc(file_entry, declaration_review_pending),
+        Arc(declaration_review_pending, review_declaration),
+        Arc(review_declaration, declaration_reviewed),
+        Arc(entry_active, release_cargo),
+        Arc(declaration_reviewed, release_cargo),
+        Arc(release_cargo, declaration_sink),
+        Arc(release_cargo, cargo_sink),
     }
 
     net = ObjectCompositionNet(places, transitions, arcs)
     workflow_net = ObjectCompositionWorkflowNet(
         net,
-        source_places={case_src, item_src},
-        sink_places={case_sink, item_sink},
+        source_places={declaration_src, cargo_src},
+        sink_places={declaration_sink, cargo_sink},
     )
-    return SyntheticOCoN("concurrent_composition", workflow_net)
+    return SyntheticOCoN("customs_clearance", workflow_net)
 
 
 BUILDERS = (
     pharmaceutical_cold_chain_conet,
     mortgage_origination_conet,
     aircraft_maintenance_conet,
-    concurrent_composition_conet,
+    customs_clearance_conet,
 )
 
 

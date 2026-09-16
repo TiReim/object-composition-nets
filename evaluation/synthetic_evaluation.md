@@ -4,9 +4,9 @@ The synthetic datasets cover four object-centric processes with different compos
 lifecycles:
 
 - pharmaceutical cold-chain logistics,
-- mortgage origination, and
+- mortgage origination,
 - aircraft line maintenance, and
-- a deliberately non-rediscoverable concurrent composition.
+- customs clearance.
 
 They are ordinary OCEL 2.0 inputs to the evaluation scripts and are registered alongside the five
 numbered logs in `data/`.
@@ -46,16 +46,17 @@ tools join that package during maintenance. Functional testing can fail and retu
 After maintenance, tools and the technician follow independent return and sign-off paths while the
 work package continues through inspection and closure.
 
-## Concurrent composition counterexample
+## Customs clearance
 
-A case and an item are composed while a duplicate case token enters a concurrent review branch.
-Closing the composition synchronizes both branches and decomposes the pair.
+A declaration and a cargo item are filed as a customs entry while a duplicate declaration token
+enters a concurrent review branch. Releasing the cargo synchronizes both branches and decomposes
+the pair.
 
-For each pair, `Form Composition` and `Close Composition` involve both objects, but `Review Case`
-in between involves only the case. The composition miner requires a consecutive shared event
-sequence, so it discovers no higher-type even though the simulation net contains `{Case, Item}`.
-This scenario is intentionally not perfectly rediscovered and is skipped by the conformance
-benchmark at theta `1.0`.
+For each pair, `File Customs Entry` and `Release Cargo` involve both objects, but `Review
+Declaration` in between involves only the declaration. The composition miner requires a consecutive
+shared event sequence, so it discovers no higher-type even though the simulation net contains
+`{Cargo, Declaration}`. This scenario is intentionally not perfectly rediscovered and is skipped by
+the conformance benchmark at theta `1.0`.
 
 ## Stochastic generation
 
@@ -65,7 +66,7 @@ ratios follow the configured composition capacities:
 - cold chain: `3:1:1` for vials, cold boxes, and shipments;
 - mortgage: `4:1:1` for documents, applications, and properties;
 - aircraft maintenance: `2:2:1:1` for LRUs, tools, work orders, and technicians; and
-- concurrent composition: `1:1` for cases and items.
+- customs clearance: `1:1` for declarations and cargo.
 
 All objects enter a shared marking. At each service epoch, one enabled transition is selected
 uniformly. Variable inputs consume a uniformly sampled capacity-bounded subset. There are no
@@ -86,7 +87,7 @@ The generated files are:
 - `data/synthetic_logs/pharmaceutical_cold_chain.json`
 - `data/synthetic_logs/mortgage_origination.json`
 - `data/synthetic_logs/aircraft_maintenance.json`
-- `data/synthetic_logs/concurrent_composition.json`
+- `data/synthetic_logs/customs_clearance.json`
 
 They are listed in `EVENT_LOGS` together with:
 
